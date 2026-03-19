@@ -1,49 +1,29 @@
 ---
-description: Create your account, activate it, and run your first room.
+description: Set up your account, billing, and first room.
 ---
 
-# ▶️ Getting Started
+# Getting Started
 
-## Getting Started
+Use this section to get access to Escape Director and complete the minimum setup required before live use.
 
-You can be up and running in a few minutes. Open [escapedirector.com](https://www.escapedirector.com/) to create an account.
+## Recommended Order
 
-{% stepper %}
-{% step %}
-### Create your account
-
-Go to [escapedirector.com](https://www.escapedirector.com/) and hit **Start Free Trial**.
-{% endstep %}
-
-{% step %}
-### Verify your email
-
-Click the verification link in the email to activate your account.
-{% endstep %}
-
-{% step %}
-### Sign in
-
-Use your new credentials to log in.
-{% endstep %}
-
-{% step %}
-### Upgrade to Pro
-
-Follow the in-app prompts to purchase **Pro** and unlock full features.
-{% endstep %}
-
-{% step %}
-### Create your first room
-
-Create a room, add puzzles and hints, then run a quick test session.
-{% endstep %}
-{% endstepper %}
+1. Create your account and sign in
+2. Start your trial or activate your plan
+3. Create and configure your first room
 
 {% hint style="info" %}
-Escape Director is a web app. You don’t need to download anything, and updates are automatic.
+Escape Director is a web app. You do not need to download anything.
 {% endhint %}
 
-### Next steps
+## Guides
 
-<table data-view="cards"><thead><tr><th>What to do next</th><th data-card-target data-type="content-ref">Open</th></tr></thead><tbody><tr><td><strong>User Manual</strong><br>All practical how-to guides.</td><td><a href="/broken/spaces/C32oMJLkI8XnHB2QVSVO/pages/deHo2Y50aDBAXJvJvdNa">Broken link</a></td></tr><tr><td><strong>Managing Escape Rooms</strong><br>Create rooms and edit content.</td><td><a href="user-manual/managing-escape-rooms/">managing-escape-rooms</a></td></tr><tr><td><strong>Running Escape Rooms</strong><br>Use the dashboard during live games.</td><td><a href="user-manual/running-escape-rooms.md">running-escape-rooms.md</a></td></tr><tr><td><strong>Room Statistics</strong><br>Review stats and full logs after runs.</td><td><a href="user-manual/room-statistics.md">room-statistics.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th>Guide</th><th data-card-target data-type="content-ref">Open</th></tr></thead><tbody><tr><td><strong>Create Your Account And Sign In</strong><br>Create your account, verify your email, and access the app.</td><td><a href="getting-started/create-your-account-and-sign-in.md">create-your-account-and-sign-in.md</a></td></tr><tr><td><strong>Start Your Trial And Activate Your Plan</strong><br>Finish billing setup so the account is ready for normal use.</td><td><a href="getting-started/start-your-trial-and-activate-your-plan.md">start-your-trial-and-activate-your-plan.md</a></td></tr><tr><td><strong>Create And Configure Your First Room</strong><br>Create the room shell and set the core defaults.</td><td><a href="getting-started/create-and-configure-your-first-room.md">create-and-configure-your-first-room.md</a></td></tr></tbody></table>
+
+## After Setup
+
+Once your first room exists, continue with:
+
+* [Build Your Rooms](build-your-rooms/README.md)
+* [Run Live Sessions](run-rooms/README.md)
+* [Review Performance](review-performance/README.md)
