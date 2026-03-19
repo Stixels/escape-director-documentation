@@ -17,6 +17,8 @@
 
 * [Run Live Sessions](run-rooms/README.md)
   * [Run A Live Session](run-rooms/run-a-live-session.md)
+  * [Prepare Your Room Station](run-rooms/prepare-your-room-station.md)
+  * [Troubleshoot Live Session Issues](run-rooms/troubleshoot-live-session-issues.md)
 
 ## Review Performance
 
@@ -27,3 +29,7 @@
 
 * [Account](account/README.md)
   * [Use Account Settings](account/use-account-settings.md)
+
+## Help
+
+* [Get Help](get-help.md)

@@ -26,6 +26,8 @@ From the dashboard header, you can:
 Make sure the correct room is open and Live View is ready before players enter the room.
 {% endhint %}
 
+For a station-level checklist before guests arrive, use [Prepare Your Room Station](prepare-your-room-station.md).
+
 ## Prepare The Room Before Starting
 
 Before a new group begins:
@@ -33,8 +35,40 @@ Before a new group begins:
 1. Reset the room if needed.
 2. Open Live View.
 3. Confirm the background, timer, message area, and clue counter all look correct.
+4. Confirm room media is available and the station is ready for live use.
 
 If the real display does not match the editor preview, adjust the Live View settings before continuing.
+
+## Use Header Controls During Operations
+
+The Room Dashboard header includes several controls that matter during live play:
+
+* `Edit` opens the room editor if you need to inspect setup outside the live run
+* `Audio Mixer` lets you preview, pause, reset, and adjust available room audio tracks
+* `Fullscreen` expands the dashboard for cleaner in-room operation
+* `Open Live View` and `Close` control the player-facing display
+* The cache status indicator shows whether room media is ready for offline use
+
+### Audio Mixer
+
+Use the audio mixer when you need to:
+
+* Check that alert tone and soundtrack assets are present
+* Preview available audio before the session starts
+* Change volume levels for the current room station
+* Pause or reset audio during testing
+
+### Offline and cache status
+
+The cache status button helps you understand whether room media is ready if the connection becomes unreliable.
+
+You may see:
+
+* `Offline Ready` when room media has been cached successfully
+* `Caching...` or `Preparing Cache` while media is still being prepared
+* `Cache Warning` when some items failed to cache or caching is unavailable in the current environment
+
+If the room depends on media during gameplay, avoid starting a session until the status is stable or you have verified the media manually.
 
 ## Start And Control The Timer
 
@@ -95,13 +129,13 @@ When the game is finished:
 
 ### Session Details
 
-Expected fields include:
+Required fields include:
 
 * Game master
 * Clues used
 * Total players
 
-You can also save:
+Optional fields include:
 
 * Experienced players
 * Notes about the run
@@ -115,6 +149,7 @@ If you close the session without saving the statistics, you may lose run data an
 After the session is saved, review the room's performance:
 
 * [View Room Statistics](../review-performance/view-room-statistics.md)
+* [Troubleshoot Live Session Issues](troubleshoot-live-session-issues.md)
 
 ## Troubleshooting
 
