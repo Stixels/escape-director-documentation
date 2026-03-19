@@ -30,14 +30,14 @@ Once billing setup is finished:
 
 ## Manage Your Subscription Later
 
-After the trial is active, use [Use Account Settings](../account/use-account-settings.md) to review subscription state or open billing management.
+After the trial is active, use [Use Account Settings](../account/account/use-account-settings.md) to review subscription state or open billing management.
 
 ## What To Do Next
 
 Once your trial is active, continue with:
 
 * [Create And Configure Your First Room](create-and-configure-your-first-room.md)
-* [Use Account Settings](../account/use-account-settings.md)
+* [Use Account Settings](../account/account/use-account-settings.md)
 
 ## Troubleshooting
 

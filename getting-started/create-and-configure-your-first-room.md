@@ -27,12 +27,11 @@ You do not need every detail finalized before creating the room. You can edit th
 
 ### Basic Room Information
 
-| Field | Purpose |
-| --- | --- |
-| Room name | Internal room name for staff |
-| Time limit | Default start time for the room |
+| Field                  | Purpose                                      |
+| ---------------------- | -------------------------------------------- |
+| Room name              | Internal room name for staff                 |
+| Time limit             | Default start time for the room              |
 | Default clue allowance | Default number of hints available to players |
-| Auto-Alert on Messages | Plays the alert tone automatically when sending messages to players |
 
 {% hint style="info" %}
 You can add or remove time and clues later during a live game.
@@ -41,17 +40,6 @@ You can add or remove time and clues later during a live game.
 {% hint style="info" %}
 If your team does not use a fixed clue limit, start with your normal default or `0` and adjust during the game.
 {% endhint %}
-
-## Auto-Alert On Messages
-
-`Auto-Alert on Messages` controls whether Escape Director should automatically play the room's alert tone when a game master sends a message to players.
-
-Use it when:
-
-* You want players to notice messages immediately every time
-* You want a consistent signal as text appears on screen
-
-You can still trigger the alert manually during a session even if auto-alert is off.
 
 ## Continue Into The Editor
 
@@ -63,9 +51,9 @@ Creating the room gives you the starting shell. The rest of the setup happens in
 
 This page covers room creation only. Continue with separate guides for:
 
-* [Configure Live View](../build-your-rooms/configure-live-view.md)
-* [Add Puzzles And Clues](../build-your-rooms/add-puzzles-and-clues.md)
-* [Manage Room Media](../build-your-rooms/manage-room-media.md)
+* [Configure Live View](../build-your-rooms/build-your-rooms/configure-live-view.md)
+* [Add Puzzles And Clues](../build-your-rooms/build-your-rooms/add-puzzles-and-clues.md)
+* [Manage Room Media](../build-your-rooms/build-your-rooms/manage-room-media.md)
 
 ## Best Practices
 
@@ -86,7 +74,6 @@ Run an internal test session so staff can confirm:
 * Clue usage
 * Media playback
 * Live View behavior
-* Alert tone behavior when sending messages
 
 {% hint style="warning" %}
 Test the room before live use so game masters can catch missing clues, broken media, or layout issues early.
