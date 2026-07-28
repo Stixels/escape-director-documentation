@@ -20,7 +20,7 @@ Escape Director uses email verification during account setup. You need to verify
 
 ## Create Your Account
 
-1. Go to [escapedirector.com](https://www.escapedirector.com/).
+1. Go to [escapedirector.com](https://escapedirector.com/).
 2. Click `Start Free Trial`.
 3. Enter your name, email address, phone number, and password.
 4. Submit the form.
