@@ -1,29 +1,21 @@
 ---
-description: Set up your account, billing, and first room.
+description: Create your account, activate your plan, and create your first Room.
 ---
 
-# Getting Started
+# Get Started
 
-Use this section to get access to Escape Director and complete the minimum setup required before live use.
+Use these guides to reach a working Room that is ready for detailed setup.
 
-## Recommended Order
+## Recommended order
 
-1. Create your account and sign in
-2. Start your trial or activate your plan
-3. Create and configure your first room
+1. [Create Your Account and Sign In](create-your-account-and-sign-in.md)
+2. [Start Your Trial and Activate Your Plan](start-your-trial-and-activate-your-plan.md)
+3. [Create Your First Room](create-and-configure-your-first-room.md)
 
-{% hint style="info" %}
-Escape Director is a web app. You do not need to download anything.
-{% endhint %}
+## You're ready when...
 
-## Guides
+You can open **All Rooms**, see your Room, and select **Edit** without an account or billing warning.
 
-<table data-view="cards"><thead><tr><th>Guide</th><th data-card-target data-type="content-ref">Open</th></tr></thead><tbody><tr><td><strong>Create Your Account And Sign In</strong><br>Create your account, verify your email, and access the app.</td><td><a href="create-your-account-and-sign-in.md">create-your-account-and-sign-in.md</a></td></tr><tr><td><strong>Start Your Trial And Activate Your Plan</strong><br>Finish billing setup so the account is ready for normal use.</td><td><a href="start-your-trial-and-activate-your-plan.md">start-your-trial-and-activate-your-plan.md</a></td></tr><tr><td><strong>Create And Configure Your First Room</strong><br>Create the room shell and set the core defaults.</td><td><a href="create-and-configure-your-first-room.md">create-and-configure-your-first-room.md</a></td></tr></tbody></table>
+## Next
 
-## After Setup
-
-Once your first room exists, continue with:
-
-* [Build Your Rooms](../build-your-rooms/build-your-rooms/)
-* [Run Live Sessions](../run-live-sessions/run-rooms/)
-* [Review Performance](../review-performance/review-performance/)
+[Build Your Rooms](../build-your-rooms/README.md)

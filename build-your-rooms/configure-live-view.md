@@ -1,166 +1,54 @@
 ---
-description: Configure the player-facing Live View before test runs and live sessions.
+description: Configure the player-facing Live View and end screens, then test them on the real display.
 ---
 
 # Configure Live View
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Example Live View</p></figcaption></figure>
+Use this guide to make the timer, messages, Clue counter, media, and end screens readable for players.
 
-Live View is the player-facing screen your guests see during the game. This is where you control the room's visual presentation, timer display, live messaging, and clue counter.
+## Open Live View configuration
 
-## Before You Begin
+1. Open **All Rooms**.
+2. Select **Edit** for the Room.
+3. Open the **Details** tab.
+4. Choose **LiveView Screen**, **Success Screen**, or **Failure Screen** under **Configure Screen**.
 
-Make sure you have:
+## Configure the normal Live View
 
-* Created and configured the room
-* Opened the room in the editor
-* Navigated to the Live View settings area
+Work from top to bottom:
 
-{% hint style="info" %}
-Live View controls what players see. It is separate from the game master dashboard used during live operations.
-{% endhint %}
-
-## What You Can Configure
-
-| Section | What it controls | Typical use |
-| --- | --- | --- |
-| Background and media | Background color, image, intro video, background video, soundtrack, alert tone | Sets the room's visual and audio atmosphere |
-| Timer | Visibility, color, size, and position | Shows the countdown to players |
-| Live messages | Visibility, colors, size, width, and position | Displays messages or hints sent during the game |
-| Clue counter | Visibility, size, and position | Shows players how many clues remain |
-| Success and failure screens | End-screen text, timer visibility, colors, and end-state media | Controls what players see when the game ends |
-
-## Open The Live View Settings
-
-1. Go to `All Rooms`.
-2. Open the room you want to edit.
-3. Click `Edit`.
-4. Open the Live View configuration area.
-
-## Configure Background And Media
-
-### Set the background color
-
-Use a background color when you want a minimal display or a fallback behind image or video content.
-
-### Add background media
-
-You can upload:
-
-* Background image
-* Intro video brief
-* Background video
-* Background soundtrack
-* Alert tone
-
-### Use the background video as the timer
-
-If a background video is uploaded, you can enable the option to use the video duration as the room timer.
-
-This is useful when the room experience is designed around a timed video or when the timer should be represented indirectly.
-
-When this setting is enabled:
-
-* The background video's duration controls the countdown
-* The room should be tested on the real player display before live use
-* Standard timer layout choices still matter if the timer remains visible elsewhere in the design
+1. Choose a background color and any required background image or video.
+2. Add the alert tone, soundtrack, or intro video used by the Room.
+3. Set whether the timer is shown, then adjust its color, size, and position.
+4. Set whether live messages are shown, then adjust their contrast, width, and position.
+5. Set whether the remaining Clue counter is shown, then adjust its size and position.
+6. Select **Save Changes**.
 
 {% hint style="warning" %}
-Use background motion and audio carefully. If the screen becomes too busy, players may miss the timer or important messages.
+If **Use Background Video as Timer** is enabled, the video's duration controls the Room timer. Test the complete video on the real Room Station before live use.
 {% endhint %}
 
-## Configure The Timer
+## Configure both end screens
 
-You can control:
+For **Success Screen** and **Failure Screen**, confirm:
 
-* Visibility
-* Color
-* Font size
-* Horizontal position
-* Vertical position
+- The main and supporting messages say what players should see.
+- Text remains readable over the selected background.
+- The timer is shown or hidden intentionally.
+- Any end-state media plays correctly.
 
-The timer should be easy to scan quickly and should not overlap the message area.
+## Test on the player-facing display
 
-## Configure Live Messages
+1. Open the Room Dashboard.
+2. Select **Open Live View**.
+3. Check the real display from the players' viewing position.
+4. Send a test message and alert tone.
+5. Test both end screens before returning the Room to its starting state.
 
-Use live messages for text sent to players during the game.
+## You're ready when...
 
-You can configure:
+The timer, messages, Clue counter, media, success screen, and failure screen are readable and behave as intended on the real display.
 
-* Text color
-* Background color
-* Font size
-* Width
-* Position
+## Next
 
-Use a background color if the message area needs stronger readability over a complex image or video.
-
-## Configure The Clue Counter
-
-If your room shows remaining clues to players, configure the clue counter so it stays visible without competing with the timer or message area.
-
-You can control:
-
-* Visibility
-* Size
-* Position
-
-## Configure Success And Failure Screens
-
-Live View setup also includes the end screens shown when the room is completed or failed.
-
-For both the success and failure screens, you can configure:
-
-* Background color and media behavior
-* Main text visibility and styling
-* Timer visibility and styling
-* Top and bottom message text
-
-Use this section to make sure the end-of-game state matches the room tone and still stays readable on the display.
-
-### What to decide for end screens
-
-Confirm:
-
-* Whether the remaining time should stay visible
-* What headline and supporting message players should see
-* Whether the success and failure screens should feel distinct from normal gameplay
-
-{% hint style="info" %}
-End screens are part of room setup in the editor. Do not wait until the live dashboard to decide how they should look.
-{% endhint %}
-
-## Test Before Live Use
-
-Before using the room with players, confirm:
-
-* The timer is readable from the room
-* Messages are visible over the background
-* The clue counter is shown only if intended
-* Audio and alert behavior match the room design
-* Success and failure screens are readable and use the correct text
-
-{% hint style="info" %}
-If the real display resolution does not match the editor preview, adjust sizes and positions after testing on the actual screen.
-{% endhint %}
-
-## Best Practices
-
-* Prioritize readability over decoration.
-* Keep the timer and message area visually separate.
-* Use motion and audio only when they support the room experience.
-* Test on the real display, not only in the editor preview.
-
-## Troubleshooting
-
-### The timer is hard to read
-
-Increase contrast, adjust placement, or simplify the background behind it.
-
-### Messages overlap other Live View elements
-
-Reposition the message area or reduce its width until it clears the timer and clue counter.
-
-### The display looks different on the room screen
-
-Check the actual display resolution and revise font sizes or positioning from the editor.
+[Add Puzzles and Clues](add-puzzles-and-clues.md)

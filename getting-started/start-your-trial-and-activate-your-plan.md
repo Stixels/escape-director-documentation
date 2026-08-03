@@ -1,65 +1,40 @@
 ---
-description: Add a payment method, start the trial, and confirm account access.
+description: Complete Stripe checkout and confirm that your Escape Director membership is active.
 ---
 
-# Start Your Trial And Activate Your Plan
+# Start Your Trial and Activate Your Plan
 
-To begin the trial, you will be asked to add a payment method during setup. Your card is stored securely, but you will not be charged until the trial period ends.
+Use this guide to activate normal application access.
 
-{% hint style="info" %}
-If you cancel before the end of the trial, you will not be billed.
-{% endhint %}
-
-## Start Your Trial
+## Start the trial
 
 1. Sign in to Escape Director.
-2. Follow the billing prompt to start your trial or upgrade your account.
-3. Review the plan details shown during checkout.
-4. Continue to the Stripe checkout flow.
-5. Enter your billing details and submit the form.
+2. Follow the membership prompt.
+3. Review the plan and continue to Stripe checkout.
+4. Enter the requested billing details and complete checkout.
+5. Return to Escape Director.
 
-After checkout is completed, trial access should be active.
+{% hint style="info" %}
+Stripe handles the payment form. Escape Director does not ask you to send payment information through chat or email.
+{% endhint %}
 
-## Confirm Your Plan Is Active
+## Confirm access
 
-Once billing setup is finished:
+1. Open **Account Settings**.
+2. Confirm that **Membership Status** is active and the expected plan is shown.
+3. If the application still shows a membership prompt, sign out and sign back in once.
 
-1. Return to the app.
-2. Confirm that normal access is available.
-3. Sign out and back in if the account state looks stale.
+## You're ready when...
 
-## Manage Your Subscription Later
+You can open **All Rooms** and **Account Settings** shows an active membership.
 
-After the trial is active, use [Use Account Settings](../account/account/use-account-settings.md) to review subscription state or open billing management.
+## If checkout does not complete
 
-## What To Do Next
+- Recheck the billing details shown by Stripe.
+- Return to the membership prompt and restart checkout if the previous session expired.
+- Do not submit the form repeatedly after a successful payment.
+- [Contact support](../help/README.md) if Stripe confirms success but Escape Director does not show active access.
 
-Once your trial is active, continue with:
+## Next
 
-* [Create And Configure Your First Room](create-and-configure-your-first-room.md)
-* [Use Account Settings](../account/account/use-account-settings.md)
-
-## Troubleshooting
-
-### Why do I need a card to start the trial?
-
-A valid payment method is required to activate the trial and prepare billing securely. You will not be charged until the trial ends.
-
-### My card was declined
-
-Double-check:
-
-* Card number
-* Expiration date
-* CVC
-* Billing ZIP or postal code
-
-If the issue continues, try another payment method or contact your bank.
-
-### I started checkout but did not finish
-
-Return to the billing prompt inside the app and complete checkout there.
-
-### My trial should be active, but I cannot access the app correctly
-
-Sign out and sign back in, then try again. If access still looks incorrect, contact support.
+[Create Your First Room](create-and-configure-your-first-room.md)

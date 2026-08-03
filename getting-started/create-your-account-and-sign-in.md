@@ -1,69 +1,43 @@
 ---
-description: Create your account, verify your email, and sign in.
+description: Create your account, verify your email address, and sign in.
 ---
 
-# Create Your Account And Sign In
+# Create Your Account and Sign In
 
-Use this guide to create your Escape Director account and complete your first sign-in.
+Use this guide to reach **All Rooms** with a verified Escape Director account.
 
-## Before You Begin
+## Before you begin
 
-Make sure you have:
+Use an email inbox you can open now and a password you can store securely.
 
-* Access to the email inbox you want to use
-* A password you can store securely
-* The correct work or business email if your team wants shared domain consistency
-
-{% hint style="info" %}
-Escape Director uses email verification during account setup. You need to verify your email before normal use.
-{% endhint %}
-
-## Create Your Account
+## Create the account
 
 1. Go to [www.escapedirector.com](https://www.escapedirector.com/).
-2. Click `Start Free Trial`.
+2. Select **Start Free Trial**.
 3. Enter your name, email address, phone number, and password.
 4. Submit the form.
 
-## Verify Your Email Address
+## Verify your email address
 
-1. Open the verification email from Escape Director.
-2. Click the verification link.
-3. Return to the sign-in page after the email is confirmed.
+1. Open the newest verification email from Escape Director.
+2. Select the verification link.
+3. Return to Escape Director and sign in with the same email address.
 
-{% hint style="warning" %}
-If you request multiple verification emails, use the newest link. Older links may no longer work.
+{% hint style="info" %}
+If you request more than one verification email, use the newest link.
 {% endhint %}
 
-## Sign In
+## You're ready when...
 
-1. Open the Escape Director sign-in page.
-2. Enter your email address and password.
-3. Click `Sign In`.
+You can sign in and open **All Rooms**.
 
-## What To Do Next
+## If you cannot sign in
 
-After your account is active, continue with:
+- Confirm that the email address is verified.
+- Check spam or junk folders for the newest verification email.
+- Use **Forgot Password** on the sign-in page if the password is not accepted.
+- [Contact support](../help/README.md) if verification or access remains blocked.
 
-* [Start Your Trial And Activate Your Plan](start-your-trial-and-activate-your-plan.md)
-* [Create And Configure Your First Room](create-and-configure-your-first-room.md)
+## Next
 
-## Troubleshooting
-
-### I did not receive the verification email
-
-Check your spam, junk, or promotions folder first. If the message is still missing, request a new verification email and use the newest link.
-
-### My verification link does not work
-
-Verification links can expire. Request a new email and open the latest verification link.
-
-### I cannot sign in after creating my account
-
-Make sure:
-
-* You are using the same email address you signed up with
-* Your email address has already been verified
-* Your password is entered correctly
-
-If needed, use the password reset flow from the sign-in page.
+[Start Your Trial and Activate Your Plan](start-your-trial-and-activate-your-plan.md)

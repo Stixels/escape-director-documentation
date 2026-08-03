@@ -1,50 +1,43 @@
 ---
-description: Build rooms, run live sessions, and review performance in one system.
+description: Set up Escape Director, prepare your Room Station, run live games, and review results.
 cover: .gitbook/assets/logo-color.svg
 coverY: 0
 ---
 
 # Welcome to Escape Director
 
-Escape Director is a web app for escape room operations. Use it to build rooms, run live sessions, and review what happened afterward from one system.
+Escape Director brings Room setup, Live View, Game Master controls, Room Sessions, Analytics, and leaderboards into one browser application.
 
-## What Escape Director Does
+## Choose your path
 
-Escape Director is built for teams that want one operational workflow instead of scattered notes, media folders, and one-off tools.
+### I am an owner setting up Escape Director
 
-You can use it to:
+1. [Create your account and sign in](getting-started/create-your-account-and-sign-in.md).
+2. [Activate your plan](getting-started/start-your-trial-and-activate-your-plan.md).
+3. [Create your first Room](getting-started/create-and-configure-your-first-room.md).
+4. [Build your Room](build-your-rooms/README.md).
+5. [Prepare the Room Station](prepare-for-a-shift/prepare-your-room-station.md).
 
-* Create and configure rooms
-* Add puzzles, clues, and media
-* Control the player-facing Live View
-* Run sessions from a dedicated dashboard
-* Save room statistics, notes, and action logs
+### I am a Game Master preparing for a shift
 
-## Who It Is For
+1. [Prepare the Room Station](prepare-for-a-shift/prepare-your-room-station.md).
+2. Keep the [Live Session Quick Reference](run-a-session/live-session-quick-reference.md) nearby.
+3. [Run a live Room Session](run-a-session/run-a-live-session.md).
+4. [Troubleshoot a live session](run-a-session/troubleshoot-a-live-session.md) if something does not look right.
 
-* **Owners** who want more consistent operations across staff and rooms
-* **Game masters** who need fast controls during live play
-* **Teams** that use hints, timers, and media during gameplay
-* **Operators** who want better post-game review
+<figure><img src=".gitbook/assets/rooms-overview.png" alt="Escape Director All Rooms page showing fictional demo Rooms"><figcaption><p>All Rooms is the starting point for Room setup and live operation.</p></figcaption></figure>
 
-## Recommended Path
+## Browse by task
 
-If you are new to Escape Director, start here:
-
-1. Create your account and sign in
-2. Start your trial or activate your plan
-3. Create and configure your first room
-4. Set up Live View, puzzles, and media
-5. Run a live session and review the results
+| I need to... | Start here |
+| --- | --- |
+| Set up the application | [Get Started](getting-started/README.md) |
+| Configure Puzzles, Clues, Live View, or media | [Build Your Rooms](build-your-rooms/README.md) |
+| Get a station ready before guests arrive | [Prepare for a Shift](prepare-for-a-shift/README.md) |
+| Operate a live game | [Run a Session](run-a-session/README.md) |
+| Review results or publish leaderboards | [Review and Improve](review-and-improve/README.md) |
+| Fix a problem or contact support | [Troubleshoot and Get Help](help/README.md) |
 
 {% hint style="info" %}
-Escape Director runs in your browser. No installs or manual updates are required.
+Escape Director runs in your browser. For live Room operation, use one supported Room Station and test Live View on the actual player-facing display before guests arrive.
 {% endhint %}
-
-## Start Here
-
-<table data-view="cards"><thead><tr><th>Area</th><th data-card-target data-type="content-ref">Open</th></tr></thead><tbody><tr><td><strong>Getting Started</strong><br>Account setup, billing, and your first room.</td><td><a href="getting-started/">getting-started</a></td></tr><tr><td><strong>Build Your Rooms</strong><br>Set up Live View, puzzles, and room media.</td><td><a href="build-your-rooms/build-your-rooms/">build-your-rooms</a></td></tr><tr><td><strong>Run Live Sessions</strong><br>Operate a room from the dashboard.</td><td><a href="run-live-sessions/run-rooms/">run-rooms</a></td></tr><tr><td><strong>Review Performance</strong><br>Use room statistics, notes, and logs.</td><td><a href="review-performance/review-performance/">review-performance</a></td></tr><tr><td><strong>Account</strong><br>Manage password, billing, and account status.</td><td><a href="account/account/">account</a></td></tr></tbody></table>
-
-## Core Guides
-
-<table data-view="cards"><thead><tr><th>Guide</th><th data-card-target data-type="content-ref">Open</th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><strong>Create And Configure Your First Room</strong><br>Set room defaults and move into the editor.</td><td><a href="getting-started/create-and-configure-your-first-room.md">create-and-configure-your-first-room.md</a></td><td><a href=".gitbook/assets/Edit Room 1.png">Edit Room 1.png</a></td></tr><tr><td><strong>Run A Live Session</strong><br>Use the Room Dashboard during gameplay.</td><td><a href="run-live-sessions/run-rooms/run-a-live-session.md">run-a-live-session.md</a></td><td><a href=".gitbook/assets/Dashboard.png">Dashboard.png</a></td></tr><tr><td><strong>View Room Statistics</strong><br>Review results, notes, and action logs.</td><td><a href="review-performance/review-performance/view-room-statistics.md">view-room-statistics.md</a></td><td><a href=".gitbook/assets/Room Statistics.png">Room Statistics.png</a></td></tr></tbody></table>
