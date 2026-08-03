@@ -1,88 +1,40 @@
 ---
-description: Update your password, review subscription status, manage billing, and sign out.
+description: Review membership, open billing, change your password, or sign out.
 ---
 
 # Use Account Settings
 
-Account Settings is where you manage your personal account and subscription details inside Escape Director.
+Use this page for account and membership actions that require a connection.
 
 ## Open Account Settings
 
-1. Sign in to Escape Director.
-2. Open the account menu.
-3. Select `Account Settings`.
+Select **Account Settings** in the application navigation or account menu.
 
-This page contains your account and subscription controls.
+## Review membership and billing
 
-## Change Your Password
-
-Enter:
-
-* Your current password
-* Your new password
-* Your password confirmation
-
-Then submit the form to save the new password.
-
-If the form does not submit, check for:
-
-* Missing current password
-* Password mismatch
-* Minimum password length requirements
-
-## Review Your Subscription Status
-
-Depending on your account state, you may see:
-
-* Current plan
-* Subscription status
-* Renewal timing
-* Cancellation status
-* End-of-period information
-
-Use this section to confirm your trial or subscription is active.
-
-## Open Billing Management
-
-Use billing management when you need to:
-
-* Update billing details
-* Review subscription information
-* Open the billing portal
-* Manage plan changes
-
-## Sign Out
-
-Sign out when:
-
-* You are on a shared device
-* You are closing down for the day
-* You want to refresh account state after a change
+Check **Membership Status**, **Current Plan**, and **Current Period Ends**. Select **Manage Billing** to open Stripe's billing portal for supported subscription and payment-method actions.
 
 {% hint style="warning" %}
-Sessions are persistent, so sign out intentionally on shared or public devices.
+Review the effective date shown by Stripe before confirming a cancellation or plan change.
 {% endhint %}
 
-## Best Practices
+## Change your password
 
-* Keep your password current.
-* Review subscription status after billing changes.
-* Use Account Settings for management instead of creating a second account.
+1. Enter the current password.
+2. Enter and confirm the new password.
+3. Select **Change Password** once.
+4. Store the new password securely.
 
-## Troubleshooting
+Use **Forgot Password** from the sign-in page when the current password is unavailable.
 
-### My password change did not work
+## Sign out
 
-Check:
+Select **Logout** only after active Room Sessions and pending saves are complete. Account and billing actions are unavailable while offline.
 
-* Your current password is correct
-* The new password meets the form rules
-* The confirmation matches the new password exactly
+## You're ready when...
 
-### My subscription status looks wrong
+The intended membership or security change is confirmed and you can sign in normally.
 
-Refresh the page or sign out and back in first. If the status still looks incorrect, contact [support@escapedirector.com](mailto:support@escapedirector.com).
+## Get help
 
-### I cannot find the billing controls
-
-Confirm that your account has already started the trial or has an active subscription state.
+For a membership state that does not match Stripe, or an account you cannot access, [contact support](../help/README.md).

@@ -1,11 +1,9 @@
 ---
-description: Manage your password, billing, and subscription details.
+description: Manage your password, membership, billing, and sign-in state.
 ---
 
 # Account
 
-Use this section to manage your personal account and subscription details inside Escape Director.
+Use [Account Settings](use-account-settings.md) to review membership information, open billing management, change your password, or sign out.
 
-## Main Guide
-
-* [Use Account Settings](use-account-settings.md)
+For account access or billing help, [contact support](../help/README.md).

@@ -1,83 +1,42 @@
 ---
-description: Upload, replace, and remove the room assets used during setup and live play.
+description: Upload and verify the images, videos, and audio used by a Room.
 ---
 
 # Manage Room Media
 
-Room media includes the files your team uses to support gameplay and the player-facing Live View. This can include images, videos, audio tracks, alert sounds, and background media.
+Use this guide to keep only the media Game Masters and Live View need.
 
-## What Room Media Includes
+## Upload a Room asset
 
-Media is usually managed in one of two places:
+1. Open **All Rooms** and select **Edit** for the Room.
+2. Open **Images**, **Videos**, or **Audio**.
+3. Choose or drag the matching file.
+4. Select the upload action and wait for completion.
+5. Confirm the new asset appears in the Room library.
 
-* Room-level assets used during setup and live operation
-* Live View assets shown or played for players during a session
+<figure><img src="../.gitbook/assets/room-images-library.png" alt="Room editor Images tab showing the upload area and Room image gallery"><figcaption><p>Each media tab keeps one type of Room asset together.</p></figcaption></figure>
 
-Common Live View media includes:
+## Use media in Live View
 
-* Background image
-* Background video
-* Intro video brief
-* Soundtrack
-* Alert tone
+Open the **Details** tab to choose Room-level assets such as:
 
-## Open The Media Areas
+- Alert tone
+- Background soundtrack
+- Background image or video
+- Intro video brief
 
-1. Go to `All Rooms`.
-2. Open the room you want to edit.
-3. Click `Edit`.
-4. Open the media-related section you want to update.
+Use the Puzzle editor when a media asset is a player-facing Clue.
 
-Depending on the asset, media may be managed in dedicated media tabs or in the Live View configuration area.
+## Replace or remove an asset
 
-## Upload Media
+- Use **Replace** when the same role should point to a newer file.
+- Remove an asset only after confirming that Live View and no Clue still depends on it.
+- Use recognizable filenames and avoid near-duplicate uploads.
 
-1. Open the correct upload section.
-2. Choose the matching media type.
-3. Click `Upload`.
-4. Select the file from your device.
-5. Wait for the upload to finish.
+## You're ready when...
 
-After uploading, confirm:
+Every required image, video, and audio file appears in the correct Room control and plays on the real Room Station.
 
-* The correct file was selected
-* The asset appears in the expected place
-* The room still looks and behaves correctly in preview
+## Next
 
-## Replace Existing Media
-
-1. Open the media item you want to update.
-2. Choose the `Replace` option.
-3. Select the new file.
-4. Wait for the upload to complete.
-
-Then confirm the replacement behaves correctly in preview or test playback.
-
-## Remove Media
-
-1. Find the media item in the editor.
-2. Click `Remove`.
-3. Confirm the change if prompted.
-
-Remove unused assets instead of leaving them attached to the room.
-
-## Best Practices
-
-* Keep filenames recognizable to staff.
-* Prefer clarity over quantity.
-* Test media on the real display setup, not only in preview.
-* Replace outdated assets instead of keeping multiple near-duplicates.
-
-## Troubleshooting
-
-### My media uploaded, but it does not look right
-
-Check whether the wrong file was uploaded or whether the background now makes text hard to read.
-
-### Should I upload every file I might use someday?
-
-No. Only upload assets your team is likely to use.
-
-### I replaced a file and now the room looks worse
-
-Review the new asset in preview and compare readability, fit, and playback against the previous version.
+[Prepare for a Shift](../prepare-for-a-shift/README.md)
