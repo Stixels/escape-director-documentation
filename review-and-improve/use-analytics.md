@@ -1,5 +1,5 @@
 ---
-description: Use governed dashboards and comparisons to understand completed Room Sessions.
+description: Use evidence-backed dashboards, comparisons, and Ask Analytics to understand completed Room Sessions.
 ---
 
 # Use Analytics
@@ -32,7 +32,11 @@ Open **Compare** when you need an explicit Room or Game Master comparison. Keep 
 
 ## Ask Analytics
 
-Select **Ask Analytics** for a read-only answer based on governed Analytics evidence. Review the selected Room, date range, evidence, and limitations before acting on the result. A proposed dashboard card is not saved until you explicitly apply it.
+Select **Ask Analytics** to explore performance in plain language. Start with a recommended review or ask your own question about the selected Room.
+
+<figure><img src="../.gitbook/assets/analytics-ai-assistant.jpg" alt="Analytics dashboard for Demo Analytics Lab with the Ask Analytics panel open beside the selected Room Summary"><figcaption><p>Ask Analytics stays beside the selected dashboard so the Room, date range, and supporting numbers remain visible.</p></figcaption></figure>
+
+The assistant uses approved, read-only metric queries and shows the numbers behind each answer. Review the selected Room, date range, evidence, and limitations before acting on the result. A proposed dashboard card is not saved until you explicitly apply it.
 
 ## You're ready when...
 
