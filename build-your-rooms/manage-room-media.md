@@ -9,12 +9,13 @@ Use this guide to keep only the media Game Masters and Live View need.
 ## Upload a Room asset
 
 1. Open **All Rooms** and select **Edit** for the Room.
-2. Open **Images**, **Videos**, or **Audio**.
-3. Choose or drag the matching file.
-4. Select the upload action and wait for completion.
-5. Confirm the new asset appears in the Room library.
+2. Open **Media library**.
+3. Select **Images**, **Videos**, or **Audio**.
+4. Choose or drag the matching file.
+5. Select the upload action and wait for completion.
+6. Confirm the new asset appears in the Room library.
 
-<figure><img src="../.gitbook/assets/room-images-library.png" alt="Room editor Images tab showing the upload area and Room image gallery"><figcaption><p>Each media tab keeps one type of Room asset together.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/room-images-library.png" alt="Room editor Media library showing the image upload area and Room image gallery"><figcaption><p>The Media library keeps each type of Room asset together.</p></figcaption></figure>
 
 ## Use media in Live View
 
