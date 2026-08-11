@@ -21,12 +21,13 @@ Stripe handles the payment form. Escape Director does not ask you to send paymen
 ## Confirm access
 
 1. Open **Account Settings**.
-2. Confirm that **Membership Status** is active and the expected plan is shown.
-3. If the application still shows a membership prompt, sign out and sign back in once.
+2. Open **Membership**.
+3. Confirm that **Status** is active and the expected **Plan** is shown.
+4. If the application still shows a membership prompt, sign out and sign back in once.
 
 ## You're ready when...
 
-You can open **All Rooms** and **Account Settings** shows an active membership.
+You can open **All Rooms** and **Account Settings → Membership** shows an active status.
 
 ## If checkout does not complete
 

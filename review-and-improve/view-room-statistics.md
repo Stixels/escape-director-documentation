@@ -27,10 +27,12 @@ Use the table to review:
 
 ## Open a Room Session
 
-Use the row action to edit permitted Session details, view notes, or view the Action Feed history. Historical records may preserve an earlier Game Master display-name snapshot even after the active profile is renamed or archived.
+Use the row action to edit the team name, Game Master, reported Clues when applicable, player counts, notes, or public-leaderboard exclusion. Date, result, Room, and time remaining cannot be changed.
+
+Open **Session Log** to review the saved event history. Review mode shows **Sent to players**, **Completions**, and **Clock changes** by default, while session start, time adjustments, and the outcome are always shown. Historical records may preserve an earlier Game Master display-name snapshot even after the active profile is renamed or archived.
 
 {% hint style="warning" %}
-Delete a Room Session only when it should no longer exist. Use an Analytics exclusion when the record should remain in history but must not affect governed metrics.
+Delete a Room Session only when it should no longer exist. Use **Exclude from public leaderboards** when the record should remain available for operational review but must not appear in public rankings.
 {% endhint %}
 
 ## Import or export CSV

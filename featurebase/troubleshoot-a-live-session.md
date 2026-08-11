@@ -9,7 +9,7 @@
 ## Messages, Clues, or media
 
 - Confirm Live View is open and the correct Puzzle is selected.
-- Check the Action Feed before sending content again.
+- Check the Session Log before sending content again.
 - Check the Room Station output device and **Audio Mixer**.
 - Use a safe alternative if an asset is missing during the live game.
 

@@ -10,29 +10,37 @@ Use this guide to give Game Masters a clear, ordered Room flow.
 
 1. Open **All Rooms**.
 2. Select **Edit** for the Room.
-3. Open the **Puzzles** tab.
+3. Open **Puzzles & clues**.
 
-<figure><img src="../.gitbook/assets/puzzles-and-clues.png" alt="Puzzles tab showing the ordered Puzzle list for Demo Clockwork Heist"><figcaption><p>The Puzzle list should match the order staff expects during a live Room Session.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/puzzles-and-clues.png" alt="Puzzles and clues editor for The Curator's Vault showing ten named Puzzles and the selected Counterfeit Seal Clue ladder"><figcaption><p>The Puzzle rail stays visible while you edit one Puzzle and its Clue ladder.</p></figcaption></figure>
 
 ## Add a Puzzle
 
-1. Select **Add New Puzzle**.
+1. Select **Puzzle** at the bottom of the Puzzle list.
 2. Enter a short operational name.
-3. Add the answer or solve condition when staff needs it.
-4. Add a brief internal description only when it helps the Game Master.
-5. Add Clues in escalation order, from a light nudge to direct help.
-6. Save the Puzzle.
+3. Leave **Counts as solved** on when the Game Master should mark it complete. Turn it off when the row is an organizational Clue Section rather than a solved Puzzle.
+4. Add the answer or solve condition when staff needs it.
+5. Add a brief internal description only when it helps the Game Master.
+6. Add Clues in escalation order, from a light nudge to direct help.
+7. Select **Apply changes**.
+
+Use the attachment actions beside **Clue** to add an image, audio, or video Clue from the Room's Media Library.
 
 ## Arrange the Room flow
 
 - Reorder Puzzles to match the normal solve sequence.
+- Use Clue Sections to group related Clues without increasing the completed-Puzzle count.
 - Reorder Clues so Game Masters can increase assistance gradually.
 - Remove duplicates and old instructions.
 - Use player-facing Clue text; keep internal operating notes in the Puzzle description.
 
+{% hint style="warning" %}
+Deleting a Puzzle removes its current Clues but does not rewrite completed Room Session history. Deleting a Media Library file that is attached as a Clue also deletes each linked media Clue; review the confirmation before continuing.
+{% endhint %}
+
 ## You're ready when...
 
-Every Puzzle has a recognizable name, the intended answer or description, and only the Clues staff may send during a game.
+Every Puzzle has a recognizable name, the intended solve-tracking setting, the useful answer or description, and only the Clues staff may send during a game.
 
 ## Next
 

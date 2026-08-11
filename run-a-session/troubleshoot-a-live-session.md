@@ -25,7 +25,7 @@ Do not open several Live View windows for the same Room.
 ## A message or Clue does not appear
 
 - Confirm Live View is open.
-- Check the Action Feed before sending the content again.
+- Check the Session Log before sending the content again. Use its filter when the relevant action is hidden among other events.
 - Confirm the correct Puzzle is selected.
 - Use **Clear Live View** only when removing the current player-facing content is intended.
 
@@ -61,6 +61,10 @@ If an asset is missing, do not replace Room configuration during the active game
 {% hint style="danger" %}
 Do not clear browser data, remove the offline download, or discard a pending or rejected Room Session unless you intend to permanently remove that local record.
 {% endhint %}
+
+## An application update is ready during a game
+
+Leave the update message visible and finish the active or completed-but-unsaved Room Session first. **Update now** stays disabled while this browser profile has an active game, including a game in another Escape Director window. Select it only after the Room Session is safely saved and the control becomes available.
 
 ## Escalate to support
 

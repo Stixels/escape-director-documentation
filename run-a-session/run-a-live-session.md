@@ -17,7 +17,7 @@ Complete [Prepare Your Room Station](../prepare-for-a-shift/prepare-your-room-st
 3. Select **Open Live View** and confirm the player-facing display.
 4. Select the first Puzzle the group will encounter.
 
-<figure><img src="../.gitbook/assets/room-dashboard.png" alt="Demo Clockwork Heist Room Dashboard with Live View open, timer controls, Puzzle list, Clues, and Action Feed"><figcaption><p>The Room Dashboard keeps the live controls in one Game Master workspace.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/room-dashboard.png" alt="In-progress Room Dashboard for The Curator's Vault with a running timer, two completed Puzzles, the selected Gilded Compass Puzzle, and a Session Log of sent Clues and completions"><figcaption><p>The Room Dashboard keeps live controls, prepared Clues, and the Session Log in one Game Master workspace.</p></figcaption></figure>
 
 ## Start the game
 
@@ -32,11 +32,11 @@ Use the speed controls only for testing or a deliberate operational correction. 
 - Choose the current Puzzle to open its answer, description, and Clues.
 - Select a prepared Clue to send it to Live View.
 - Use the message box for a necessary custom message.
-- Use **Images**, **Videos**, or **Audios** for Room media.
+- Use **Images**, **Videos**, or **Audios** for Room media. Audio plays from the Room Dashboard controls; confirm the Room Station's output device and level.
 - Use **Mic** only when live audio is part of the Room's operating plan.
-- Adjust the reported Clue count when the configured Session record requires it.
+- Adjust reported Clues when the Room Session requires it.
 
-The **Action Feed** records player-facing actions so the Game Master can see what was sent and when.
+The **Session Log** records the operational actions that matter during the game. Its filter groups optional rows as **Sent to players**, **Completions**, and **Clock changes**. Session start, time adjustments, and the outcome are always shown so the essential game history cannot be hidden.
 
 ## Track Puzzle progress
 
@@ -46,7 +46,7 @@ Select **Mark Complete** when players solve a tracked Puzzle. Use the reversal c
 
 - Select **Complete Room** when the group succeeds.
 - Allow timer expiration to record a failed Room Session.
-- In the Session details dialog, confirm the final Game Master, player count, experienced-player count, required assistance measure, and any useful notes.
+- In the Session details dialog, confirm the final Game Master, total and experienced players, reported Clues when shown, and any useful notes.
 - Save the Room Session once.
 
 {% hint style="warning" %}
