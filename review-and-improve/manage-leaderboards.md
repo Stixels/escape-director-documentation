@@ -13,7 +13,7 @@ Use Leaderboards to review eligible successful Room Sessions and control the pla
 3. Choose **Today**, **This Week**, **This Month**, or **All Time**.
 4. Review team name, saved time remaining, the Room's configured assistance measure, and played date.
 
-<figure><img src="../.gitbook/assets/leaderboards.png" alt="Populated leaderboard for the synthetic Sublevel 13 Room showing ranked successful Room Sessions and the Game Master communications tie-break"><figcaption><p>Leaderboards rank included successful Room Sessions within the selected period.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/leaderboards.png" alt="Leaderboard for the synthetic Sublevel 13 Room showing gold, silver, bronze, and fourth-place Room Sessions for the selected month, with different saved times and Game Master communication counts"><figcaption><p>Leaderboards rank included successful Room Sessions within the selected period.</p></figcaption></figure>
 
 Saved time remaining determines the primary order. When two eligible Room Sessions have equal time, the Room's configured assistance measure supplies the supported tie-break. Failed Room Sessions are not ranked.
 
