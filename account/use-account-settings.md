@@ -1,18 +1,24 @@
 ---
-description: Review membership, open billing, change your password, or sign out.
+description: Update your profile, manage sign-in security and billing, and check this browser's offline readiness.
 ---
 
 # Use Account Settings
 
-Use this page for account and membership actions that require a connection.
+Account Settings is a separate workspace with sections for **Profile**, **Security**, **Membership**, and **This browser**. Use **Back to...** to return to the application page you came from.
 
 ## Open Account Settings
 
-Select **Account Settings** in the application navigation or account menu.
+Select **Account Settings** in the application navigation or account menu, then choose the section you need.
+
+<figure><img src="../.gitbook/assets/account-settings-device.png" alt="Account Settings in This browser showing Offline access status, expiry, and prepared Rooms in a synthetic test account"><figcaption><p>This browser reports its own offline access and prepared Rooms; another browser can have different readiness.</p></figcaption></figure>
+
+## Update your profile
+
+Open **Profile** to update the account name or phone number. The email address is shown for reference; contact support when it must change. Select **Save** when the unsaved-changes bar appears.
 
 ## Review membership and billing
 
-Check **Membership Status**, **Current Plan**, and **Current Period Ends**. Select **Manage Billing** to open Stripe's billing portal for supported subscription and payment-method actions.
+Open **Membership** to check status, plan, and the current period or cancellation date. Select **Manage billing** to open Stripe's billing portal for supported subscription and payment-method actions. Use **Update card** when the status requires payment action.
 
 {% hint style="warning" %}
 Review the effective date shown by Stripe before confirming a cancellation or plan change.
@@ -20,20 +26,36 @@ Review the effective date shown by Stripe before confirming a cancellation or pl
 
 ## Change your password
 
+Open **Security**. Escape Director shows the sign-in method first. Accounts that sign in only through a linked provider do not have an Escape Director password form.
+
 1. Enter the current password.
 2. Enter and confirm the new password.
-3. Select **Change Password** once.
+3. Select **Change password** once.
 4. Store the new password securely.
 
 Use **Forgot Password** from the sign-in page when the current password is unavailable.
 
+{% hint style="danger" %}
+Changing the password signs out every other browser and tablet immediately, including a Room Station. Change it between games, not during one.
+{% endhint %}
+
+## Check this browser
+
+Open **This browser** to see:
+
+- whether offline access is **Ready** and when it expires;
+- how many Rooms are downloaded to this browser; and
+- which Rooms are currently prepared.
+
+This state belongs to the current browser profile. It does not prove that another Room Station is ready.
+
 ## Sign out
 
-Select **Logout** only after active Room Sessions and pending saves are complete. Account and billing actions are unavailable while offline.
+Select **Sign out** only after active Room Sessions and pending saves are complete. Profile, security, and billing changes require a connection; prepared Rooms may still run offline while their displayed access remains valid.
 
 ## You're ready when...
 
-The intended membership or security change is confirmed and you can sign in normally.
+The intended profile, membership, security, or browser-readiness state is confirmed and you can return to the application safely.
 
 ## Get help
 

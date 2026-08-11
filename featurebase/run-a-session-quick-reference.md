@@ -10,7 +10,7 @@
 
 - Select the current Puzzle before choosing a Clue.
 - Use prepared Clues before writing a custom message.
-- Check the Action Feed before resending content.
+- Check the Session Log before resending content.
 - Mark tracked Puzzles complete only after players solve them.
 - Adjust time or reported Clues only when the Room Session requires it.
 

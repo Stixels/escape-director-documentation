@@ -13,6 +13,8 @@ Use these guides to turn a new Room into a tested experience that Game Masters c
 3. [Manage Room Media](manage-room-media.md)
 4. Open the Room Dashboard and test the complete flow on the real Room Station.
 
+Room defaults and screen settings save automatically. Puzzle edits are applied explicitly so an unfinished Puzzle draft does not replace the saved version.
+
 ## You're ready when...
 
 - Live View is readable on the player-facing display.

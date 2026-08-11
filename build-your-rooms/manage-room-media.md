@@ -4,18 +4,25 @@ description: Upload and verify the images, videos, and audio used by a Room.
 
 # Manage Room Media
 
-Use this guide to keep only the media Game Masters and Live View need.
+Use this guide to upload, preview, find, and safely remove the media Game Masters and Live View use.
 
 ## Upload a Room asset
 
 1. Open **All Rooms** and select **Edit** for the Room.
 2. Open **Media library**.
-3. Select **Images**, **Videos**, or **Audio**.
-4. Choose or drag the matching file.
-5. Select the upload action and wait for completion.
-6. Confirm the new asset appears in the Room library.
+3. Select **Upload**.
+4. Choose an image, audio, or video file.
+5. Wait for the upload progress to finish.
+6. Confirm the new file appears in the matching media group.
 
-<figure><img src="../.gitbook/assets/room-images-library.png" alt="Room editor Media library showing the image upload area and Room image gallery"><figcaption><p>The Media library keeps each type of Room asset together.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/room-images-library.png" alt="Room editor Media Library showing All, Images, Audio, and Video filters, search, upload, and playable audio cards"><figcaption><p>The consolidated Media Library keeps every Room file searchable and previews audio and video before live use.</p></figcaption></figure>
+
+## Find and verify a file
+
+- Select **All**, **Images**, **Audio**, or **Video** to narrow the library.
+- Use **Search files** when the Room has many assets.
+- Play audio or video from its card and use the timeline to check the required moment.
+- Read the usage label before removal. A number means the file is referenced by that many Room settings or Clues; **Library only** means it is still available for Game Masters to send even though no saved setting points to it.
 
 ## Use media in Live View
 
@@ -28,15 +35,19 @@ Open the **Details** tab to choose Room-level assets such as:
 
 Use the Puzzle editor when a media asset is a player-facing Clue.
 
-## Replace or remove an asset
+## Replace or delete a file
 
-- Use **Replace** when the same role should point to a newer file.
-- Remove an asset only after confirming that Live View and no Clue still depends on it.
+- Replace a file from the Room setting or Clue that should use the newer asset.
+- Delete a file only after reviewing every listed use in the confirmation.
 - Use recognizable filenames and avoid near-duplicate uploads.
+
+{% hint style="danger" %}
+Deleting a file is permanent. Escape Director also removes it from Room screen settings, and deletes any linked image, audio, or video Clues named in the confirmation. Completed Room Session history remains unchanged.
+{% endhint %}
 
 ## You're ready when...
 
-Every required image, video, and audio file appears in the correct Room control and plays on the real Room Station.
+Every required image, video, and audio file is easy to find, appears in the intended Room setting or Clue, and plays on the real Room Station.
 
 ## Next
 

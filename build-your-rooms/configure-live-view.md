@@ -18,11 +18,13 @@ Use this guide to make the timer, messages, Clue counter, media, and end screens
 Work from top to bottom:
 
 1. Choose a background color and any required background image or video.
-2. Add the alert tone, soundtrack, or intro video used by the Room.
+2. Choose the alert tone, soundtrack, or intro video used by the Room.
 3. Set whether the timer is shown, then adjust its color, size, and position.
-4. Set whether live messages are shown, then adjust their contrast, width, and position.
+4. Set whether live messages are shown, add the optional **Message at game start**, and adjust contrast, width, and position.
 5. Set whether the remaining Clue counter is shown, then adjust its size and position.
-6. Select **Save Changes**.
+6. Check the built-in **Preview** while you work.
+
+Details and screen changes save automatically. Wait for **Autosave on** before leaving the editor.
 
 {% hint style="warning" %}
 If **Use Background Video as Timer** is enabled, the video's duration controls the Room timer. Test the complete video on the real Room Station before live use.
@@ -44,6 +46,8 @@ For **Success Screen** and **Failure Screen**, confirm:
 3. Check the real display from the players' viewing position.
 4. Send a test message and alert tone.
 5. Test both end screens before returning the Room to its starting state.
+
+The editor preview is useful for layout, but the real display is the final check for playback, browser permissions, fullscreen behavior, and viewing distance.
 
 ## You're ready when...
 
