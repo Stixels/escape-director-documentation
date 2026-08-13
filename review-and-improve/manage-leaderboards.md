@@ -11,11 +11,11 @@ Use Leaderboards to review eligible successful Room Sessions and control the pla
 1. Select **Leaderboards**.
 2. Choose a Room.
 3. Choose **Today**, **This Week**, **This Month**, or **All Time**.
-4. Review team name, saved time remaining, the Room's configured assistance measure, and played date.
+4. Review team name, saved time remaining, reported Clues when the Room collects them, and played date.
 
-<figure><img src="../.gitbook/assets/leaderboards.png" alt="Leaderboard for the synthetic Sublevel 13 Room showing gold, silver, bronze, and fourth-place Room Sessions for the selected month, with different saved times and Game Master communication counts"><figcaption><p>Leaderboards rank included successful Room Sessions within the selected period.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/leaderboards.png" alt="Leaderboard for the synthetic Sublevel 13 Room showing gold, silver, bronze, and fourth-place Room Sessions for the selected period, with different saved times and reported Clue counts"><figcaption><p>Leaderboards rank included successful Room Sessions within the selected period.</p></figcaption></figure>
 
-Saved time remaining determines the primary order. When two eligible Room Sessions have equal time, the Room's configured assistance measure supplies the supported tie-break. Failed Room Sessions are not ranked.
+Saved time remaining determines the primary order. When the Room collects reported Clues, fewer Clues break a tie between Room Sessions with equal time. When it does not, equal times remain tied and the leaderboard does not show a Clues column. Failed Room Sessions are not ranked.
 
 ## Correct a leaderboard entry
 

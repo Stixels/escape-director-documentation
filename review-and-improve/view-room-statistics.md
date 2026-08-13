@@ -22,7 +22,7 @@ Use the table to review:
 - Date and time
 - Game Master
 - Saved time remaining
-- Reported assistance measure
+- Reported Clues when the Room collects them
 - Total and experienced players
 
 ## Open a Room Session
@@ -44,7 +44,7 @@ Do not edit column names or mix customer data from different Rooms without a cle
 
 ## You're ready when...
 
-The expected Room Session appears with the correct Game Master, saved time, assistance measure, and player details.
+The expected Room Session appears with the correct Game Master, saved time, reported Clues when collected, and player details.
 
 ## Next
 
