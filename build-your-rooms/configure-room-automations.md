@@ -1,10 +1,10 @@
 ---
-description: Build, enable, and test Room Automations without disrupting a live Room Session.
+description: Build, enable, and test Room Automations safely before using them in a live Room Session.
 ---
 
 # Configure Room Automations
 
-Use this guide to run an ordered sequence of Room actions from a Trigger or a Dashboard button.
+Use this guide to run an ordered sequence of Room actions from a game event or a Dashboard button.
 
 ## Before you begin
 
