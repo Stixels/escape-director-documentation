@@ -15,6 +15,7 @@
 * [Configure Live View](build-your-rooms/configure-live-view.md)
 * [Add Puzzles and Clues](build-your-rooms/add-puzzles-and-clues.md)
 * [Manage Room Media](build-your-rooms/manage-room-media.md)
+* [Configure Room Automations](build-your-rooms/configure-room-automations.md)
 
 ## Prepare for a Shift
 
