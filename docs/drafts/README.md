@@ -11,3 +11,17 @@ availability, managed physical checks and final download locations. Add only
 platform instructions backed by a tested installer. This draft does not promise
 Windows or ChromeOS availability. The SDK's developer quickstart ships with the
 SDK; it is maintained beside that code in the backend repository.
+
+## Release coordination
+
+The companion branch is `ed-70-add-supported-hardware-and-prop-integration`.
+Open its documentation PR when the application feature is prepared for staging,
+and link it from the frontend/backend promotion PRs. Keep the guides unpublished
+until the feature release.
+
+The frontend's `docs/ed70-implementation-status.md` owns the documentation release
+gate. Production readiness requires both the owner setup guide and a public
+technical SDK guide, checked against the staging candidate and its SDK download.
+The technical guide is not yet written here; the bundled quickstart is its starting
+point. Record the reviewed documentation commit and prepare navigation and final
+links before main promotion. Publish with the approved feature release.
