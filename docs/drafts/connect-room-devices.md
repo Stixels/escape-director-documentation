@@ -96,6 +96,11 @@ If the app asks for an update, quit Room Connector, replace the existing app in
 Applications with the new download, then open it again. Restarting the old app
 does not update it. Keep your existing setup; you should not need to pair again.
 
+## Existing HTTP and MQTT devices
+
+Choose **Existing device** to keep a device’s current firmware and map its
+messages to Escape Director. Follow [Connect existing devices](connect-existing-devices.md).
+
 ## Using your own sketch
 
 Follow the getting-started guide included in the SDK download to install its

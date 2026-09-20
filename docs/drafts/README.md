@@ -25,3 +25,11 @@ technical SDK guide, checked against the staging candidate and its SDK download.
 The technical guide is not yet written here; the bundled quickstart is its starting
 point. Record the reviewed documentation commit and prepare navigation and final
 links before main promotion. Publish with the approved feature release.
+
+## Existing HTTP and MQTT devices
+
+[Connect existing devices](connect-existing-devices.md) covers the implemented
+Room Connector 0.8.0 setup, shared mapping editor, Test boundary and command
+evidence. Keep it unpublished with the owner guide until the feature release.
+Its local HTTP walkthrough was exercised in the app; qualify representative
+customer devices and broker settings against the release candidate.
