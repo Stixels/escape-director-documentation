@@ -23,8 +23,11 @@ The frontend's `docs/ed70-implementation-status.md` owns the documentation relea
 gate. Production readiness requires both the owner setup guide and a public
 technical SDK guide, checked against the staging candidate and its SDK download.
 The [technical SDK guide](../../build-your-rooms/build-your-own-controller.md)
-and its navigation entry are prepared locally alongside the app links. Record the reviewed documentation commit and prepare navigation and final
-links before main promotion. Publish with the approved feature release.
+and its navigation entry are prepared alongside the app links. It covers the app
+side; the SDK download's `GETTING_STARTED.md` covers Arduino installation and the
+example, and links back to it. Record the reviewed documentation commit and
+prepare final links before main promotion. Publish with the approved feature
+release.
 
 ## Existing HTTP and MQTT devices
 

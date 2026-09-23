@@ -1,135 +1,89 @@
 # Build Your Own Controller
 
-Use the Device SDK to connect your own controller program to Escape Director.
-Your code runs the prop; Escape Director can receive its signals, display its
-state, and send its named commands through Room Connector.
+Use this guide to connect a controller running your own firmware to your Room.
+Your firmware runs the prop. Escape Director shows its state, sends its commands
+and uses its signals in Automations and linked Puzzles.
 
-If you want to configure inputs and outputs without writing code, choose
-**Escape Director firmware** instead. If your existing device already speaks
-HTTP or MQTT, choose **Existing device** and map its messages.
+If you want to set up inputs and outputs without writing code, choose
+**Escape Director firmware** instead. If a device already sends HTTP or MQTT
+messages, choose **Existing device** and map its messages.
 
 ## Before you begin
 
-You need experience compiling and uploading controller programs, a USB data
-cable, and the SDK ZIP supplied with your Escape Director setup.
+- **Supported board:** Arduino GIGA R1 WiFi, paired over USB and Wi-Fi. Other
+  boards need an adapter; see `BOARD_PORTING.md` in the SDK download.
+- **Room Connector** 0.8.2 or later, running on the Room Station computer.
+- **Chrome**, a USB data cable and the SDK download.
+- Experience uploading Arduino sketches.
 
-The supplied Arduino SDK includes an **Arduino GIGA R1 WiFi** adapter. Attach the
-GIGA's antenna. Other Arduino boards need their own compatible adapter; managed
-UNO R4 support does not mean the SDK includes a custom UNO adapter. Current guided
-pairing uses Chrome, USB and Wi-Fi. It does not provide Ethernet-only or Raspberry
-Pi setup.
+Use a spare controller for your first test, with prop loads disconnected.
 
-Use a spare controller for your first test. Keep prop loads disconnected while
-uploading and use the example's built-in LEDs to check behavior.
+## 1. Upload the example
 
-## 1. Install and try the example
+Follow `GETTING_STARTED.md` in the SDK download. It installs the libraries and
+uploads an example with two props, **Three taps** and **Hold button**, that uses
+the board's built-in LEDs.
 
-1. Extract the SDK ZIP and open `GETTING_STARTED.md`.
-2. Install the board core, ArduinoJson and ArduinoMqttClient versions listed there.
-3. Import both library ZIPs: **EscapeDirectorDevice** and **EscapeDirector**.
-4. Open **File → Examples → EscapeDirector → giga_two_props** in Arduino IDE.
-5. Select the GIGA's main M7 processor and USB port, then verify and upload.
+## 2. Pair the controller
 
-The example's D2 button counts three presses and latches its blue LED. D3 holds
-the red LED on only while pressed. Buttons connect between the input pin and
-GND; the sketch enables pull-ups. **Complete prop** is a deliberate override that
-keeps the output active until **Reset**.
+1. Open the Room and choose **Edit → Devices**. Stop any game first.
+2. Choose **Add Integrated Device → Your own firmware (SDK)** and name the Device.
+3. Choose **Pair controller**, select the controller's USB port and join the
+   Room Station's network.
+4. When the controller connects, choose **Save props to Room**.
 
-## 2. Pair and save the props
+Do not choose **Install firmware**: it replaces your firmware with Escape
+Director's.
 
-1. Stop the Room's game and turn off Test mode. Open **Edit → Devices**.
-2. Connect Room Connector on this computer. Use version 0.8.2 or later for the
-   description guidance and display metadata in this guide.
-3. Choose **Add Integrated Device → Your own firmware (SDK)** and name the Device.
-4. Choose **Pair controller**, select its USB port and join the Room Station's
-   local network. The controller and computer must be able to reach each other.
-5. After verification, choose **Save props to Room**.
-6. Turn on **Test mode**, try the LED commands and observe the physical outputs.
-   Test mode does not run Automations or complete Room Puzzles.
+## 3. Test the props
 
-Do not choose **Install firmware** for this program: that installs managed
-firmware in place of your custom code.
+Turn on **Test mode** and try each prop's commands. Watch the physical outputs
+as well as the reported state: a confirmed command means the controller accepted
+it, not that a mechanism moved.
 
-## 3. Describe your own prop
+Test mode does not run Automations or complete Puzzles.
 
-Start with a copy of the example. Its description supplies the prop names and
-capabilities shown in Devices, Device Monitor and Automations:
+## 4. Use the props in your Room
 
-- A **signal** is something that happens, such as Button pressed or Completed.
-- A **command** is an action your code handles, such as Reset or Open latch.
-- A **state field** is a current value, such as Door open or Distance.
+- **Linked Puzzle:** for a prop that supports Puzzle completion, choose the
+  Puzzle it completes. Completing either one completes the other.
+- **Automations:** use the prop's signals as triggers and its commands as
+  actions. They appear as **Device › Prop › Capability**.
 
-Use customer-facing names and stable IDs. A rename keeps its ID; a different prop
-or action gets a new one. The bundled `protocol.md` lists accepted types and limits.
+Start a practice game to check the trigger and the effect.
 
-Optional `description` text gives a capability an information tooltip. Number
-fields can include a `unit`, such as `cm`. Enum fields can include readable `labels`
-for their stored values:
+## 5. Update your firmware
 
-```json
-{
-  "id": "door",
-  "name": "Door",
-  "type": "enum",
-  "values": ["door-open", "door-closed"],
-  "labels": { "door-open": "Open", "door-closed": "Closed" },
-  "description": "Reported by the door contact."
-}
-```
+1. Stop any game, turn off Test mode, then upload the new firmware.
+2. If you changed the props, open the Device's **Controller setup** and choose
+   **Update firmware connection**.
+3. When the controller reconnects, choose **Save props to Room**.
+4. Check Linked Puzzles and Automations, then test again.
 
-Labels change presentation, not the wire values or what a command does. A
-controller's report is not proof that a physical latch moved; check the mechanism.
+Links and Automations are kept for props and capabilities whose IDs didn't
+change.
 
-## 4. Connect the prop to your Room
+## You're ready when...
 
-For a prop that declares Puzzle completion, choose its **Linked Puzzle**. This
-links physical completion to the Puzzle and manual Puzzle completion to the
-prop's completion command. Different props can link to different Puzzles.
-
-For other interactions, create an Automation using the Device's named signal as
-the trigger, or its command as an action. Names appear as **Device › Prop ›
-Capability**. Start a disposable game to verify the actual trigger and effect.
-
-## 5. Update your program
-
-1. Stop the game and turn off Test mode, then upload your changed firmware.
-2. If its description changed, open the existing Device's **Controller setup**.
-3. Select **Update firmware connection** and choose the same controller over USB.
-4. Wait for reconnection, then choose **Save props to Room**.
-5. Review changed capabilities, Puzzle links and Automations; test again.
-
-Uploading alone does not approve a new description. This update keeps the Device
-and its existing references when their IDs remain unchanged. It is not the flow
-for replacing a physical controller with a different one.
+- The Device shows **Connected** and **Props saved**.
+- Each prop reports its state and responds in Test mode.
+- A practice game completes the linked Puzzle or runs the Automation once.
 
 ## Troubleshooting
 
-**Controller description changed:** use the update steps above. This message is
-not a Wi-Fi diagnosis.
+**Controller description changed:** you uploaded firmware with different props.
+Follow [Update your firmware](#5-update-your-firmware).
 
-**Controller description is invalid:** expand **Developer details**. Fix the listed
-fields in your program: check duplicate IDs, identifier formats, size limits,
-number ranges and enum label keys. Upload the corrected program and retry setup.
+**Controller description is invalid:** expand **Developer details**, fix the
+listed fields in your firmware and upload it again.
 
-**Offline without a description error:** check controller power, Room Connector
-and local network access. If you just changed the description, use **Update
-firmware connection**. The Room keeps its saved props while live state is unavailable.
+**Offline:** check the controller's power and Wi-Fi, and that Room Connector is
+running.
 
-**A Test command works but a Puzzle does not complete:** Test mode intentionally
-does not affect gameplay. Check the Puzzle link or Automation during a running game.
-
-## Use another board
-
-Read `BOARD_PORTING.md` in the SDK ZIP before porting. It explains how to provide
-Wi-Fi/TLS, USB setup, durable pairing storage and network discovery. You also need
-to adapt pins, memory budgets and input/output timing to your board.
-
-Keep the loop responsive and enforce temporary Test-output deadlines even when a
-network call blocks. Verify certificate rejection, reset/power recovery, failed
-storage writes and reconnect behavior. Compilation alone does not qualify a new
-board for an installed room.
+**A Test command works but the Puzzle doesn't complete:** Test mode never
+completes Puzzles. Check the Linked Puzzle during a practice game.
 
 ## Next
 
-[Configure Room Automations](configure-room-automations.md) to use your prop's
-signals and commands in the Room experience.
+[Configure Room Automations](configure-room-automations.md) to use your props'
+signals and commands.

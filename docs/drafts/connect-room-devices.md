@@ -5,7 +5,7 @@ description: Connect a controller, configure its props, and test them with your 
 # Connect Room devices
 
 Use **Escape Director firmware** to set up supported puzzle behavior in the app.
-You do not need Arduino IDE or the SDK for this path. Choose **My own sketch
+You do not need Arduino IDE or the SDK for this path. Choose **Your own firmware
 (SDK)** only when you or your developer will write the controller's program.
 
 ## Before you start
@@ -101,16 +101,12 @@ does not update it. Keep your existing setup; you should not need to pair again.
 Choose **Existing device** to keep a device’s current firmware and map its
 messages to Escape Director. Follow [Connect existing devices](connect-existing-devices.md).
 
-## Using your own sketch
+## Using your own firmware
 
-Follow the getting-started guide included in the SDK download to install its
-libraries and upload your sketch first. Then choose **Your own firmware (SDK)** when
-adding the Device, pair it, and choose **Save props to Room**. Your sketch defines
-its props and wiring; those settings are edited in the sketch.
-
-After uploading a changed sketch, use **Controller setup → Update firmware connection** and
-save its reported props again. Do not use **Install firmware** for a custom
-sketch: that replaces it with Escape Director's managed program.
+Choose **Your own firmware (SDK)** when you or your developer write the
+controller's program. Its props and wiring are defined in the firmware, not in
+the app. Follow [Build Your Own Controller](../../build-your-rooms/build-your-own-controller.md)
+to pair it, save its props and update it later.
 
 ## Next
 
