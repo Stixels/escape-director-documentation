@@ -22,8 +22,8 @@ until the feature release.
 The frontend's `docs/ed70-implementation-status.md` owns the documentation release
 gate. Production readiness requires both the owner setup guide and a public
 technical SDK guide, checked against the staging candidate and its SDK download.
-The technical guide is not yet written here; the bundled quickstart is its starting
-point. Record the reviewed documentation commit and prepare navigation and final
+The [technical SDK guide](../../build-your-rooms/build-your-own-controller.md)
+and its navigation entry are prepared locally alongside the app links. Record the reviewed documentation commit and prepare navigation and final
 links before main promotion. Publish with the approved feature release.
 
 ## Existing HTTP and MQTT devices

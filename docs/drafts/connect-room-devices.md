@@ -104,11 +104,11 @@ messages to Escape Director. Follow [Connect existing devices](connect-existing-
 ## Using your own sketch
 
 Follow the getting-started guide included in the SDK download to install its
-libraries and upload your sketch first. Then choose **My own sketch (SDK)** when
+libraries and upload your sketch first. Then choose **Your own firmware (SDK)** when
 adding the Device, pair it, and choose **Save props to Room**. Your sketch defines
 its props and wiring; those settings are edited in the sketch.
 
-After uploading a changed sketch, use **Controller setup → Update sketch** and
+After uploading a changed sketch, use **Controller setup → Update firmware connection** and
 save its reported props again. Do not use **Install firmware** for a custom
 sketch: that replaces it with Escape Director's managed program.
 
