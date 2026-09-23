@@ -113,5 +113,7 @@ reconnects. Verify the prop's current state before manually sending another comm
 
 ## Next
 
+For complete examples, see [Three ways to connect a prop to your Room](device-workflows.md).
+
 [Configure Room Automations](../../build-your-rooms/configure-room-automations.md)
 to combine device signals and commands with your Room's other actions.

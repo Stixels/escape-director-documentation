@@ -111,3 +111,8 @@ its props and wiring; those settings are edited in the sketch.
 After uploading a changed sketch, use **Controller setup → Update sketch** and
 save its reported props again. Do not use **Install firmware** for a custom
 sketch: that replaces it with Escape Director's managed program.
+
+## Next
+
+Try [Three ways to connect a prop to your Room](device-workflows.md) for complete
+managed-controller, MQTT and HTTP examples.
