@@ -56,10 +56,14 @@ Start a practice game to check the trigger and the effect.
 ## 5. Update your firmware
 
 1. Stop any game, turn off Test mode, then upload the new firmware.
-2. If you changed the props, open the Device's **Controller setup** and choose
-   **Update firmware connection**.
+2. If you changed the controller description, open the Device's **Controller
+   setup** and choose **Update firmware connection**.
 3. When the controller reconnects, choose **Save props to Room**.
 4. Check Linked Puzzles and Automations, then test again.
+
+The description includes the firmware version, controller name, diagnostics and
+prop definitions. Changing any of these requires the connection update, even if
+the prop behavior is unchanged.
 
 Links and Automations are kept for props and capabilities whose IDs didn't
 change.
@@ -83,13 +87,14 @@ description schema and the commands to check its work.
 
 ## You're ready when...
 
-- The Device shows **Connected** and **Props saved**.
+- The Device shows **Connected** and **Props saved**, and its expanded panel
+  says **Room matches the controller**.
 - Each prop reports its state and responds in Test mode.
 - A practice game completes the linked Puzzle or runs the Automation once.
 
 ## Troubleshooting
 
-**Controller description changed:** you uploaded firmware with different props.
+**Controller description changed:** the firmware reports a different description.
 Follow [Update your firmware](#5-update-your-firmware).
 
 **Controller description is invalid:** expand **Developer details**, fix the
