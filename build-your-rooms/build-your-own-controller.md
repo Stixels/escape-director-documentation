@@ -10,8 +10,9 @@ messages, choose **Existing device** and map its messages.
 
 ## Before you begin
 
-- **Supported board:** Arduino GIGA R1 WiFi, paired over USB and Wi-Fi. Other
-  boards need an adapter; see `BOARD_PORTING.md` in the SDK download.
+- **Supported boards:** Arduino UNO R4 WiFi or GIGA R1 WiFi, paired over USB
+  and Wi-Fi. Other boards need an adapter; see `BOARD_PORTING.md` in the SDK
+  download.
 - **Room Connector** 0.8.2 or later, running on the Room Station computer.
 - **Chrome**, a USB data cable and the SDK download.
 - Experience uploading Arduino sketches.
@@ -21,8 +22,8 @@ Use a spare controller for your first test, with prop loads disconnected.
 ## 1. Upload the example
 
 Follow `GETTING_STARTED.md` in the SDK download. It installs the libraries and
-uploads an example with two props, **Three taps** and **Hold button**, that uses
-the board's built-in LEDs.
+uploads an example with two props, **Three taps** and **Hold button**, each
+with an LED.
 
 ## 2. Pair the controller
 
@@ -63,6 +64,23 @@ Start a practice game to check the trigger and the effect.
 Links and Automations are kept for props and capabilities whose IDs didn't
 change.
 
+## Build your prop with a coding agent
+
+The SDK download includes `AGENTS.md`, instructions that coding agents such as
+Claude Code read automatically. It gives the agent the SDK's rules, the
+description schema and the commands to check its work.
+
+1. Open the extracted SDK folder in your coding agent.
+2. Describe your prop: its inputs and outputs, what solves it, and which
+   commands you want. For example: _"Copy the two_props example to
+   vault_keypad. Make one prop that completes when 4-7-1-9 is entered on a
+   keypad, with Reset and Open latch commands. Compile it for the UNO R4 WiFi."_
+3. Review the changes, then upload the firmware and follow
+   [Pair the controller](#2-pair-the-controller) or
+   [Update your firmware](#5-update-your-firmware).
+4. Test every command yourself. The agent can compile the firmware but can't
+   check the wiring or the prop.
+
 ## You're ready when...
 
 - The Device shows **Connected** and **Props saved**.
@@ -76,6 +94,10 @@ Follow [Update your firmware](#5-update-your-firmware).
 
 **Controller description is invalid:** expand **Developer details**, fix the
 listed fields in your firmware and upload it again.
+
+**The controller ran out of memory during setup:** restart it and try again.
+If it continues, reduce the memory your firmware uses, such as large buffers or
+text.
 
 **Offline:** check the controller's power and Wi-Fi, and that Room Connector is
 running.

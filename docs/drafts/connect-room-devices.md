@@ -16,7 +16,7 @@ antenna. Start on the same non-guest network as the Room Station; the devices
 must be allowed to communicate with one another.
 
 The current managed setup supports Arduino GIGA R1 WiFi and UNO R4 WiFi. Custom
-SDK setup currently has a GIGA adapter. Keep the controller's prop outputs
+SDK setup supports both boards. Keep the controller's prop outputs
 disconnected while installing firmware and setting up wiring.
 
 ## 1. Connect Room Connector
