@@ -70,15 +70,14 @@ device actually supports; Escape Director does not add these commands to it.
 
 1. Add an **Existing device → MQTT**, enter its broker address and credentials,
    then save it. Add a prop named **Wall safe**.
-2. Choose **Add signal**, name it **Solved**, enter a Listen filter such as
+2. Choose **Add from a message**, keep **A moment**, name it **Solved**, enter a Listen filter such as
    `room/wall-safe/#`, and choose **Listen**. Operate the device until it publishes
    a status message such as `{"solved":true}` on `room/wall-safe/state`.
-3. Select that message. Match JSON field `solved` to boolean `true`, not text
-   `"true"`. Choose **When it changes to match**.
-4. Enable **Also complete a puzzle when this arrives**, choose **Wall safe** from
-   the Puzzle selector, then **Save signal**. This creates an editable Automation. Open **Automations** and check that it is enabled.
-5. Add state named **Solved**, using the same topic and JSON field with value type
-   **true / false**. This gives Device Monitor a readout in addition to the signal.
+3. Select that message and click its `true` value, so JSON field `solved` matches
+   boolean `true`, not text `"true"`. Set the verb to **changes to**.
+4. Under **Complete a puzzle**, choose **Wall safe**, then **Save signal**. This creates an editable Automation. Open **Automations** and check that it is enabled.
+5. Choose **Add from a message** again, select **A reading**, and name it
+   **Solved**, using the same topic and JSON field with value type **true / false**. This gives Device Monitor a readout in addition to the signal.
 6. In Test mode, make the device report `{"solved":false}`, then
    `{"solved":true}`, then `{"solved":true}` again. The change-to-match signal
    should occur once. False rearms it; another true can trigger it again.
@@ -91,7 +90,7 @@ Puzzle, repeated solved reports do not create repeated runs, and the readout
 shows reported state.
 
 For a device that sends discrete **button pressed** events instead of periodic
-state, choose **Every matching message**. Repeats then count as events. Listening
+state, set the verb to **is**. Repeats then count as events. Listening
 cannot decide which meaning your device intended.
 
 ## An HTTP input completes a Puzzle and sends a command
@@ -99,16 +98,16 @@ cannot decide which meaning your device intended.
 **As a Room owner, I want an existing sensor to notify Escape Director, then use
 that input to complete a Puzzle and ask another device to open a latch.**
 
-1. Add an **Existing device → HTTP**. If it only sends messages, select the
-   sends-to-us direction. No outgoing device address is needed.
+1. Add an **Existing device → HTTP**. If it only sends messages, leave
+   **Device address** blank.
 2. Copy its generated **POST endpoint** and **X-ED-Token header** into the sensor's
    request settings. Send JSON such as `{"pressed":true}` in the request body.
    Keep the token private and use an address reachable from the sensor.
-3. Add a prop and a signal named **Pressed**. Listen for the request, then match
-   JSON field `pressed` to boolean `true`. For distinct press events, choose
-   **Every matching message**. Save it with the Puzzle-completion shortcut if wanted.
+3. Add a prop, then **Add from a message** for a signal named **Pressed**. Listen
+   for the request, then click the `true` value of `pressed`. For distinct press
+   events, keep the verb **is**. Choose a Puzzle under **Complete a puzzle** if wanted.
 4. Add the output device using its supported HTTP or MQTT connection. It can be
-   the same Device if its HTTP direction is **both**, or a separate Device.
+   the same Device if it has a **Device address**, or a separate Device.
 5. Under the output prop, choose **Add command** and name it **Open latch**. Enter
    the device's documented command: for example, HTTP `POST /open` with body
    `open`, or MQTT topic `room/latch/command` with payload `open`.
@@ -134,7 +133,7 @@ starting state using its own reset procedure or an explicitly configured command
 ## Explore messages without affecting a game
 
 In Test mode, **Map…** turns an unmapped capture into a draft. Review its name,
-value type and trigger choice. **Turn off Test mode and save** ends testing before
+value type and verb. **Turn off Test mode and save** ends testing before
 saving the mapping. The draft itself must not change the applied configuration.
 
 Test mode can send real commands, but it does not run Automations or write device

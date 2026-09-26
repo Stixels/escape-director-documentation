@@ -21,8 +21,9 @@ or broker. Guest networks may block that communication.
 2. Connect or update **Room Connector** if prompted.
 3. Choose **Add Integrated Device**, then **Existing device**. Give it a name.
 4. Choose **MQTT** or **HTTP** and fill in its connection details.
-5. For HTTP, choose whether the device sends to Escape Director, receives
-   commands, or does both. A device that only sends messages needs no address.
+5. For HTTP, enter the device's address if Escape Director should send it
+   commands. Leave **Device address** blank for a device that only sends
+   messages. Every HTTP device gets its own address to send to.
 6. Choose **Add Device**, then expand its row.
 
 For incoming HTTP, copy the **POST endpoint** and **X-ED-Token header** into the
@@ -30,7 +31,7 @@ device's outgoing request settings. Send its text or JSON as the request body.
 Keep the token private. The endpoint points to this Room Station; update the
 device if that computer's network address changes.
 
-For outgoing HTTP, **Check reachability** checks whether the address answers.
+If the HTTP device has an address, **Check reachability** checks whether it answers.
 It does not test a command or prove that the physical prop works.
 
 Connection passwords and tokens stay on this computer. Setting up another Room
@@ -39,20 +40,21 @@ Station requires entering those details again.
 ## 2. Map a signal
 
 1. Choose **Add prop** and name the puzzle or mechanism.
-2. Under that prop, choose **Add signal** and give the signal a useful name,
-   such as **Button pressed**.
+2. Under that prop, choose **Add from a message**, keep **A moment** selected,
+   and give the signal a useful name, such as **Button pressed**.
 3. Choose **Listen**, then operate the device. For MQTT, enter its topic filter.
-   Select the message you want to use. You can also enter its mapping manually.
-4. Choose an exact text value, a JSON field and value, or any message. For JSON,
-   check the value type: the boolean `true` differs from the text `"true"`.
-5. Choose when the signal should trigger:
-   - **Every matching message** runs for each arrival, repeats included. Use it
-     for events such as a button press.
-   - **When it changes to match** waits for a nonmatching value followed by a
-     match. The first report establishes the starting state. Use it for state
-     transitions, such as a prop changing from unsolved to solved.
-6. If the signal should complete a Room Puzzle, select **Also complete a puzzle
-   when this arrives** and choose the Puzzle. This creates a regular Automation.
+   Select the message you want to use, then click the value that means
+   something, such as `"pressed"`. This fills in the field, value and type. You
+   can also enter the rule manually.
+4. Check the value type: the boolean `true` differs from the text `"true"`.
+5. Choose the rule's verb:
+   - **is** counts every matching message, repeats included. Use it for events
+     such as a button press.
+   - **changes to** waits for a nonmatching value followed by a match. The first
+     report establishes the starting state. Use it for state transitions, such
+     as a prop changing from unsolved to solved.
+6. If the signal should complete a Room Puzzle, choose it under **Complete a
+   puzzle**. This creates a regular Automation.
 7. Choose **Save signal**.
 
 Listening cannot determine whether repeated messages are separate events or
@@ -61,8 +63,9 @@ MQTT messages marked **Retained** show previous state and do not run Automations
 
 ## 3. Map state and commands
 
-Use **Add state** to name a reported text, number or true/false value for Device
-Monitor. This does not create an Automation trigger by itself.
+Use **Add from a message** and choose **A reading** to name a reported text,
+number or true/false value for Device Monitor. This does not create an
+Automation trigger by itself.
 
 Use **Add command** to define a supported MQTT topic and payload, or an HTTP
 GET/POST path. Choose a name such as **Open latch** that a Game Master can identify.
