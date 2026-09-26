@@ -23,7 +23,7 @@ disconnected while installing firmware and setting up wiring.
 
 1. Open your Room, choose **Edit**, then **Devices**.
 2. Connect **Room Connector**. On a Mac, download it when prompted, move the app
-   to **Applications**, and open it.
+   to **Applications**, and open it. Use the download for your Mac’s processor.
 3. When Chrome asks to open Room Connector, allow it. Choose **Connect** in
    Room Connector's window.
 4. Return to the Devices tab and confirm Room Connector says **Connected**.
@@ -92,9 +92,13 @@ and any reported problem before choosing **Resume device control**.
 
 ## Updating Room Connector
 
-If the app asks for an update, quit Room Connector, replace the existing app in
-Applications with the new download, then open it again. Restarting the old app
-does not update it. Keep your existing setup; you should not need to pair again.
+**Update required** means a feature needs a newer Connector. **Update available**
+means a newer version is ready to download, but your current Connector can still
+operate the Room. Finish any running game before updating.
+
+On a Mac, quit Room Connector, replace the existing app in Applications with the
+new download, then open it again. Restarting the old app does not update it.
+Keep your existing setup; you should not need to pair again.
 
 ## Existing HTTP and MQTT devices
 

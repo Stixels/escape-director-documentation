@@ -9,7 +9,9 @@ release candidate before publication.
 Release qualification still needs the unsigned macOS installation path, Windows
 availability, managed physical checks and final download locations. Add only
 platform instructions backed by a tested installer. This draft does not promise
-Windows or ChromeOS availability. The SDK's developer quickstart ships with the
+Windows or ChromeOS availability. The [Windows setup draft](windows-connector.md)
+is ready for comparison with the Windows candidate; its native install, firewall
+and USB checks remain pending. The SDK's developer quickstart ships with the
 SDK; it is maintained beside that code in the backend repository.
 
 ## Release coordination
