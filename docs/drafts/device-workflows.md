@@ -27,9 +27,10 @@ relay or lock. The UNO R4 WiFi has a built-in antenna.
 1. In **Edit Room → Devices**, connect Room Connector. Choose **Add Integrated
    Device → Escape Director firmware**, name it **Hold-button controller**, and
    save the Device if prompted.
-2. Connect USB and choose **Pair controller**. Install managed firmware, then
-   **Continue to Wi-Fi**. Select the UNO in Chrome, enter the Wi-Fi details, and
-   wait for the Room Station verification to succeed. The computer and board
+2. Connect USB and choose **Pair controller**, then select the UNO in the setup
+   dialog. Install managed firmware if asked; setup continues to Wi-Fi by
+   itself. Enter the Wi-Fi details and wait for the Room Station verification
+   to succeed. The computer and board
    must be able to reach one another on the local network.
 3. Disconnect USB before wiring. Connect a normally-open button between **D2**
    and **GND**. With a four-leg tactile button, use two terminals that become
@@ -39,7 +40,8 @@ relay or lock. The UNO R4 WiFi has a built-in antenna.
    with the pull-up configuration, and **All inputs active**. Disable the override
    for this bench.
 5. Choose **Built-in LED** as the output, **While inputs are active**, and startup
-   off. Save the configuration and **Apply to device**. Wait for confirmation.
+   off. Choose **Save and apply**, confirm, and wait for the controller to
+   confirm the change.
 6. Turn on **Test mode**. Press the button: the input and LED should become active.
    Release it: both should become inactive. Repeat several times. Test mode must
    not complete a Room Puzzle or run an Automation.

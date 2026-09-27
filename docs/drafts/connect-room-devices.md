@@ -45,7 +45,7 @@ not need to reinstall it when you refresh the page.
    the setup dialog when prompted. Room Connector handles the USB connection.
 4. If the board needs firmware, choose **Install firmware** and select your board.
    Installation replaces its current program. Leave the cable connected while
-   the controller restarts, then continue to Wi-Fi when setup is ready.
+   the controller restarts; setup continues to Wi-Fi by itself.
 5. Follow the setup steps to choose a Wi-Fi network and enter its password.
    Use **Scan again** if needed, or **Enter name manually** for a hidden network.
 6. Wait for setup to confirm that the controller reached the Room Station.
@@ -60,7 +60,8 @@ normal communication uses Wi-Fi. The controller still needs a suitable power sou
    the wiring. Several props can share one board using different channels.
 3. For an ordered sequence, arrange the input rows in the order players must
    activate them.
-4. Choose **Apply to device** and wait for confirmation.
+4. Choose **Save and apply**, confirm, and wait for the controller to confirm
+   the change. If the changes are already saved, the button says **Apply**.
 
 If the app reports a problem, correct it before testing. Saving a configuration
 in the app and applying it to the physical controller are separate steps.
