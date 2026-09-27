@@ -16,10 +16,6 @@ Use these guides to turn a new Room into a tested experience that Game Masters c
 
 Room defaults and screen settings save automatically. Puzzle edits are applied explicitly so an unfinished Puzzle draft does not replace the saved version.
 
-## Custom controllers
-
-[Build Your Own Controller](build-your-own-controller.md) to connect custom firmware with the Device SDK.
-
 ## You're ready when...
 
 - Live View is readable on the player-facing display.

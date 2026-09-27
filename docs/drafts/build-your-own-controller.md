@@ -10,19 +10,22 @@ messages, choose **Existing device** and map its messages.
 
 ## Before you begin
 
+- **The Device SDK:** download it from the
+  [Escape Director Device SDK repository](https://github.com/Stixels/escape-director-device-sdk)
+  on GitHub. The SDK is open source under the MIT License, so you can use and
+  change it for your props however you like.
 - **Supported boards:** Arduino UNO R4 WiFi or GIGA R1 WiFi, paired over USB
-  and Wi-Fi. Other boards need an adapter; see `BOARD_PORTING.md` in the SDK
-  download.
+  and Wi-Fi. Other boards need an adapter; see `BOARD_PORTING.md` in the SDK.
 - **Room Connector** 0.8.5 or later, running on the Room Station computer.
   Room Connector handles the USB connection during setup.
-- **Chrome** on the same computer, a USB data cable and the SDK download.
+- **Chrome** on the same computer and a USB data cable.
 - Experience uploading Arduino sketches.
 
 Use a spare controller for your first test, with prop loads disconnected.
 
 ## 1. Upload the example
 
-Follow `GETTING_STARTED.md` in the SDK download. It installs the libraries and
+Follow `GETTING_STARTED.md` in the SDK. It installs the libraries and
 uploads an example with two props, **Three taps** and **Hold button**, each
 with an LED.
 
@@ -72,7 +75,7 @@ change.
 
 ## Build your prop with a coding agent
 
-The SDK download includes `AGENTS.md`, instructions that coding agents such as
+The SDK includes `AGENTS.md`, instructions that coding agents such as
 Claude Code read automatically. It gives the agent the SDK's rules, the
 description schema and the commands to check its work.
 
@@ -114,5 +117,5 @@ completes Puzzles. Check the Linked Puzzle during a practice game.
 
 ## Next
 
-[Configure Room Automations](configure-room-automations.md) to use your props'
+[Configure Room Automations](../../build-your-rooms/configure-room-automations.md) to use your props'
 signals and commands.

@@ -135,7 +135,7 @@ messages to Escape Director. Follow [Connect existing devices](connect-existing-
 
 Choose **Your own firmware (SDK)** when you or your developer write the
 controller's program. Its props and wiring are defined in the firmware, not in
-the app. Follow [Build Your Own Controller](../../build-your-rooms/build-your-own-controller.md)
+the app. Follow [Build Your Own Controller](build-your-own-controller.md)
 to pair it, save its props and update it later.
 
 ## Next

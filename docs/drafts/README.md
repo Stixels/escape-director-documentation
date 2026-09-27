@@ -11,30 +11,44 @@ availability, managed physical checks and final download locations. Add only
 platform instructions backed by a tested installer. This draft does not promise
 Windows or ChromeOS availability. The [Windows setup draft](windows-connector.md)
 is ready for comparison with the Windows candidate; its native install, firewall
-and USB checks remain pending. The SDK's developer quickstart ships with the
-SDK; it is maintained beside that code in the backend repository.
+and USB checks remain pending. The SDK's developer quickstart
+(`GETTING_STARTED.md`) is maintained in the
+[Device SDK repository](https://github.com/Stixels/escape-director-device-sdk),
+not here.
 
 ## Release coordination
 
-The companion branch is `ed-70-add-supported-hardware-and-prop-integration`.
-Open its documentation PR when the application feature is prepared for staging,
-and link it from the frontend/backend promotion PRs. Keep the guides unpublished
-until the feature release.
+The companion branch is `ed-70-add-supported-hardware-and-prop-integration`,
+reviewed through a draft PR targeting `dev`. Link it from the frontend/backend
+promotion PRs. Every device guide stays in `docs/drafts/`, outside `SUMMARY.md`,
+so merging or promoting this branch publishes nothing. Keep the guides
+unpublished until the feature release.
 
 The frontend's `docs/ed70-implementation-status.md` owns the documentation release
 gate. Production readiness requires both the owner setup guide and a public
-technical SDK guide, checked against the staging candidate and its SDK download.
-The [technical SDK guide](../../build-your-rooms/build-your-own-controller.md)
-and its navigation entry are prepared alongside the app links. It covers the app
-side; the SDK download's `GETTING_STARTED.md` covers Arduino installation and the
-example, and links back to it. Record the reviewed documentation commit and
-prepare final links before main promotion. Publish with the approved feature
-release.
+technical SDK guide, checked against the staging candidate and the SDK release.
+The [technical SDK guide](build-your-own-controller.md) covers the app side;
+the SDK's `GETTING_STARTED.md` covers Arduino installation and the example, and
+links back to it. It links to the SDK repository, which must be public before
+this guide is published. Record the reviewed documentation commit and prepare
+final links before main promotion.
+
+## Publish with the feature release
+
+In one change, with the approved feature release:
+
+1. Move `connect-room-devices.md`, `connect-existing-devices.md`,
+   `device-workflows.md` and `build-your-own-controller.md` into
+   `build-your-rooms/` (and `windows-connector.md` only if Windows is
+   qualified), then fix their relative links.
+2. Add them to `SUMMARY.md` under Build Your Rooms and link them from
+   `build-your-rooms/README.md`.
+3. Confirm the SDK repository link is public and every download link works.
 
 ## Existing HTTP and MQTT devices
 
-[Connect existing devices](connect-existing-devices.md) covers the implemented
-Room Connector 0.8.0 setup, shared mapping editor, Test boundary and command
+[Connect existing devices](connect-existing-devices.md) covers the Room Connector
+0.8.5 candidate's setup, shared mapping editor, Test boundary and command
 evidence. Keep it unpublished with the owner guide until the feature release.
 Its local HTTP walkthrough was exercised in the app; qualify representative
 customer devices and broker settings against the release candidate.
