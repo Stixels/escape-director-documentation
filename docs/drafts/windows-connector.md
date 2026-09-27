@@ -11,13 +11,20 @@ PC and controller to the same private network. Have a USB data cable ready.
    Windows tray. You do not need to install developer tools.
 4. Return to Escape Director and choose **Open Room Connector**. Allow Chrome
    to open the app, then choose **Connect** in Room Connector's window.
-5. If Windows asks about network access, allow the Connector on your private
+5. If Chrome asks to access devices on your local network, allow access for
+   Escape Director. If you previously denied it, change the site's local-network
+   permission, reload the page, and reconnect Room Connector.
+6. If Windows asks about network access, allow the Connector on your private
    network so it can communicate with the controller. Keep the firewall enabled.
-6. Confirm Room Connector says **Connected**, then continue with
+7. Confirm Room Connector says **Connected**, then continue with
    [Add and pair your controller](connect-room-devices.md#2-add-and-pair-your-controller).
 
 Keep Room Connector running while using the Room. From its tray menu, enable
 **Start at login** if this PC operates the Room each day.
+
+Controller USB setup happens in the Escape Director setup dialog through Room
+Connector. Close Arduino IDE's Serial Monitor or other software using the board
+before setup. Leave the cable connected while firmware installation restarts it.
 
 ## Update it
 

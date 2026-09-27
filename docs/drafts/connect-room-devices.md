@@ -4,6 +4,9 @@ description: Connect a controller, configure its props, and test them with your 
 
 # Connect Room devices
 
+Release draft — verify the Connector-owned USB steps on macOS and Windows
+before publication.
+
 Use **Escape Director firmware** to set up supported puzzle behavior in the app.
 You do not need Arduino IDE or the SDK for this path. Choose **Your own firmware
 (SDK)** only when you or your developer will write the controller's program.
@@ -26,7 +29,9 @@ disconnected while installing firmware and setting up wiring.
    to **Applications**, and open it. Use the download for your Mac’s processor.
 3. When Chrome asks to open Room Connector, allow it. Choose **Connect** in
    Room Connector's window.
-4. Return to the Devices tab and confirm Room Connector says **Connected**.
+4. If Chrome asks to access devices on your local network, allow access for
+   Escape Director. This lets the page reach Room Connector on this computer.
+5. Return to the Devices tab and confirm Room Connector says **Connected**.
 
 Keep Room Connector running on this computer while operating the Room. You do
 not need to reinstall it when you refresh the page.
@@ -35,10 +40,12 @@ not need to reinstall it when you refresh the page.
 
 1. Choose **Add Integrated Device**, then **Escape Director firmware**.
 2. Give the Device a recognizable name and choose **Add Device**.
-3. Connect the controller by USB and choose **Pair controller**.
+3. Close Arduino IDE's Serial Monitor and any other program using the controller.
+   Connect it by USB, choose **Pair controller**, and select the controller in
+   the setup dialog when prompted. Room Connector handles the USB connection.
 4. If the board needs firmware, choose **Install firmware** and select your board.
-   Installation replaces its current program. When it finishes, choose
-   **Continue to Wi-Fi** and select the controller in Chrome.
+   Installation replaces its current program. Leave the cable connected while
+   the controller restarts, then continue to Wi-Fi when setup is ready.
 5. Follow the setup steps to choose a Wi-Fi network and enter its password.
    Use **Scan again** if needed, or **Enter name manually** for a hidden network.
 6. Wait for setup to confirm that the controller reached the Room Station.
@@ -99,6 +106,24 @@ operate the Room. Finish any running game before updating.
 On a Mac, quit Room Connector, replace the existing app in Applications with the
 new download, then open it again. Restarting the old app does not update it.
 Keep your existing setup; you should not need to pair again.
+
+## If setup is interrupted
+
+Keep the same Device and reopen its **Controller setup**. Confirm Room Connector
+is running on this computer, then reconnect the USB controller if requested.
+Close other programs using the USB connection before retrying. Do not add a
+second Device or reinstall firmware merely because a connection attempt failed.
+
+Joining Wi-Fi and reaching the Room Station are separate steps. If Wi-Fi connects
+but setup cannot reach the station, confirm both use the same network and that
+it allows devices to communicate. Moving a controller from another computer also
+requires updating its Room Station connection. Use **Reconnect to Room Station**
+if setup offers it, and wait for confirmation before testing the prop again.
+
+If you denied Chrome's local-network permission, open the site's permissions,
+allow local-network access for Escape Director, then reload and reconnect Room
+Connector. If your organization manages that setting, ask its administrator for
+access. Keep the browser and firewall protections enabled.
 
 ## Existing HTTP and MQTT devices
 

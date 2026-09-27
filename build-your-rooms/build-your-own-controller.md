@@ -29,8 +29,9 @@ with an LED.
 
 1. Open the Room and choose **Edit → Devices**. Stop any game first.
 2. Choose **Add Integrated Device → Your own firmware (SDK)** and name the Device.
-3. Choose **Pair controller**, select the controller's USB port and join the
-   Room Station's network.
+3. Close Arduino IDE's Serial Monitor and other programs using the controller.
+   Choose **Pair controller**, select the controller in the setup dialog, and
+   join the Room Station's network.
 4. When the controller connects, choose **Save props to Room**.
 
 Do not choose **Install firmware**: it replaces your firmware with Escape
