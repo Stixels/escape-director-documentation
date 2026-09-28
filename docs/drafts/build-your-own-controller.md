@@ -61,8 +61,8 @@ Start a practice game to check the trigger and the effect.
 ## 5. Update your firmware
 
 1. Stop any game, turn off Test mode, then upload the new firmware.
-2. If you changed the controller description, open the Device's **Controller
-   setup** and choose **Update firmware connection**.
+2. Open the Device's **Controller setup**, choose **Check controller**, then
+   **Update connection**. Setup lists any props that changed.
 3. When the controller reconnects, choose **Save props to Room**.
 4. Check Linked Puzzles and Automations, then test again.
 
