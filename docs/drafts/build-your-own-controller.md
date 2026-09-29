@@ -25,9 +25,10 @@ Use a spare controller for your first test, with prop loads disconnected.
 
 ## 1. Upload the example
 
-Follow `GETTING_STARTED.md` in the SDK. It installs the libraries and
-uploads an example with two props, **Three taps** and **Hold button**, each
-with an LED.
+Follow `GETTING_STARTED.md` in the SDK. It installs the libraries and uploads
+**room_basic**, a train door with one prop, **Train door**. The board's built-in
+LED stands in for the door, and touching pin 2 to GND pulls its lever, so it
+needs no wiring.
 
 ## 2. Pair the controller
 
@@ -66,9 +67,9 @@ Start a practice game to check the trigger and the effect.
 3. When the controller reconnects, choose **Save props to Room**.
 4. Check Linked Puzzles and Automations, then test again.
 
-The description includes the firmware version, controller name, diagnostics and
-prop definitions. Changing any of these requires the connection update, even if
-the prop behavior is unchanged.
+Change your sketch's version when you change it. Its name, version and declared
+props, signals, commands and state make up what the Room sees; changing any of
+these requires the connection update, even if the prop behavior is unchanged.
 
 Links and Automations are kept for props and capabilities whose IDs didn't
 change.
@@ -76,14 +77,14 @@ change.
 ## Build your prop with a coding agent
 
 The SDK includes `AGENTS.md`, instructions that coding agents such as
-Claude Code read automatically. It gives the agent the SDK's rules, the
-description schema and the commands to check its work.
+Claude Code read automatically. It tells the agent how to add the SDK to your
+sketch while keeping your puzzle logic, and how to check its work.
 
 1. Open the extracted SDK folder in your coding agent.
 2. Describe your prop: its inputs and outputs, what solves it, and which
-   commands you want. For example: _"Copy the two_props example to
-   vault_keypad. Make one prop that completes when 4-7-1-9 is entered on a
-   keypad, with Reset and Open latch commands. Compile it for the UNO R4 WiFi."_
+   commands you want. For example: _"Add the SDK to my vault_keypad sketch.
+   Make one prop that completes when 4-7-1-9 is entered on the keypad, with
+   Reset and Open latch commands. Compile it for the UNO R4 WiFi."_
 3. Review the changes, then upload the firmware and follow
    [Pair the controller](#2-pair-the-controller) or
    [Update your firmware](#5-update-your-firmware).
@@ -103,7 +104,9 @@ description schema and the commands to check its work.
 Follow [Update your firmware](#5-update-your-firmware).
 
 **Controller description is invalid:** expand **Developer details**, fix the
-listed fields in your firmware and upload it again.
+listed declarations in your sketch and upload it again. If the controller
+never appears, open the Serial Monitor at 115200 baud: the SDK prints any
+declaration it rejected.
 
 **The controller ran out of memory during setup:** restart it and try again.
 If it continues, reduce the memory your firmware uses, such as large buffers or
