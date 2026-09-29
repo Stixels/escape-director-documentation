@@ -16,7 +16,7 @@ messages, choose **Existing device** and map its messages.
   change it for your props however you like.
 - **Supported boards:** Arduino UNO R4 WiFi or GIGA R1 WiFi, paired over USB
   and Wi-Fi. Other boards need an adapter; see `BOARD_PORTING.md` in the SDK.
-- **Room Connector** 0.8.5 or later, running on the Room Station computer.
+- **Room Connector**, up to date and running on the Room Station computer.
   Room Connector handles the USB connection during setup.
 - **Chrome** on the same computer and a USB data cable.
 - Experience uploading Arduino sketches.
