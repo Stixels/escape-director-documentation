@@ -22,10 +22,6 @@ The current managed setup supports Arduino GIGA R1 WiFi and UNO R4 WiFi. Custom
 SDK setup supports both boards. Keep the controller's prop outputs
 disconnected while installing firmware and setting up wiring.
 
-{% hint style="warning" %}
-Escape Director hardware control is intended for show control and gameplay automation, not life-safety use. Networked software and connected devices can fail. Do not rely on Escape Director as the only means of emergency release, egress, shutdown, or hazard prevention. Install and maintain appropriate independent hardwired or manual overrides and follow all applicable requirements.
-{% endhint %}
-
 ## 1. Connect Room Connector
 
 1. Open your Room, choose **Edit**, then **Devices**.
