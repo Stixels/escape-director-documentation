@@ -2,7 +2,7 @@
 description: Walk through a held-button prop, an MQTT puzzle, and an HTTP input using named signals, commands and state.
 ---
 
-# Three ways to connect a prop to your Room
+# Three Ways to Connect a Prop to Your Room
 
 Use these walkthroughs to choose how a physical input should affect a prop and
 Escape Director. Start in a bench Room with no guests or connected mechanisms.
@@ -144,6 +144,6 @@ use a bench game to verify the complete gameplay path.
 
 ## Next
 
-- [Connect Room devices](connect-room-devices.md)
+- [Connect Room Devices](connect-room-devices.md)
 - [Connect existing HTTP and MQTT devices](connect-existing-devices.md)
-- [Configure Room Automations](../../build-your-rooms/configure-room-automations.md)
+- [Configure Room Automations](configure-room-automations.md)

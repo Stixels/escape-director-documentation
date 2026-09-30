@@ -1,4 +1,8 @@
-# Set up Room Connector on Windows
+---
+description: Install Room Connector on a Windows 11 PC and connect it to your Room.
+---
+
+# Set Up Room Connector on Windows
 
 Release draft — verify these steps with the Windows installer before publication.
 

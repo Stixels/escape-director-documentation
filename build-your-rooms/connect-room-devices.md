@@ -2,7 +2,7 @@
 description: Connect a controller, configure its props, and test them with your Room.
 ---
 
-# Connect Room devices
+# Connect Room Devices
 
 Release draft — verify the Connector-owned USB steps on macOS and Windows
 before publication.
@@ -132,7 +132,7 @@ access. Keep the browser and firewall protections enabled.
 ## Existing HTTP and MQTT devices
 
 Choose **Existing device** to keep a device’s current firmware and map its
-messages to Escape Director. Follow [Connect existing devices](connect-existing-devices.md).
+messages to Escape Director. Follow [Connect Existing Devices](connect-existing-devices.md).
 
 ## Using your own firmware
 
@@ -143,5 +143,5 @@ to pair it, save its props and update it later.
 
 ## Next
 
-Try [Three ways to connect a prop to your Room](device-workflows.md) for complete
+Try [Three Ways to Connect a Prop to Your Room](device-workflows.md) for complete
 managed-controller, MQTT and HTTP examples.

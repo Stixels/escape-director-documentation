@@ -2,7 +2,7 @@
 description: Connect existing HTTP or MQTT props to Room Automations without replacing their firmware.
 ---
 
-# Connect existing devices
+# Connect Existing Devices
 
 Use this guide to receive messages from existing props and send their supported
 commands from Escape Director. Your device must already support HTTP or MQTT;
@@ -116,7 +116,7 @@ reconnects. Verify the prop's current state before manually sending another comm
 
 ## Next
 
-For complete examples, see [Three ways to connect a prop to your Room](device-workflows.md).
+For complete examples, see [Three Ways to Connect a Prop to Your Room](device-workflows.md).
 
-[Configure Room Automations](../../build-your-rooms/configure-room-automations.md)
+[Configure Room Automations](configure-room-automations.md)
 to combine device signals and commands with your Room's other actions.

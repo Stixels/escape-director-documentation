@@ -1,3 +1,7 @@
+---
+description: Connect a controller running your own Arduino code with the open-source Device SDK.
+---
+
 # Build Your Own Controller
 
 Use this guide to connect a controller running your own firmware to your Room.
@@ -131,5 +135,5 @@ completes Puzzles. Check the Linked Puzzle during a practice game.
 
 ## Next
 
-[Configure Room Automations](../../build-your-rooms/configure-room-automations.md) to use your props'
+[Configure Room Automations](configure-room-automations.md) to use your props'
 signals and commands.
