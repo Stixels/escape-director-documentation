@@ -33,11 +33,17 @@ needs no wiring.
 ## 2. Pair the controller
 
 1. Open the Room and choose **Edit → Devices**. Stop any game first.
-2. Choose **Add Integrated Device → Your own firmware (SDK)** and name the Device.
+2. Choose **Add Integrated Device → Your own firmware (SDK)**, name the Device,
+   then choose **Add Device** and **Save Devices**.
 3. Close Arduino IDE's Serial Monitor and other programs using the controller.
-   Choose **Pair controller**, select the controller in the setup dialog, and
-   join the Room Station's network.
-4. When the controller connects, choose **Save props to Room**.
+4. Open the Device and choose **Pair controller**. Select your board under
+   **USB controller**, then choose **Check controller**. Setup recognizes your
+   firmware by its name and version.
+5. Choose the Wi-Fi network the Room Station uses (controllers use 2.4 GHz
+   Wi-Fi), enter its password and choose **Join network**. Setup finishes when
+   the controller reaches the Room Station.
+6. The Device shows **Connected** and lists the props your firmware reports.
+   Choose **Save props to Room**.
 
 Do not choose **Install firmware**: it replaces your firmware with Escape
 Director's.
@@ -46,7 +52,10 @@ Director's.
 
 Turn on **Test mode** and try each prop's commands. Watch the physical outputs
 as well as the reported state: a confirmed command means the controller accepted
-it, not that a mechanism moved.
+it, not that a mechanism moved. With the example, **Open door** lights the
+board's LED for one second.
+
+Only commands your firmware allows in Test mode appear there.
 
 Test mode does not run Automations or complete Puzzles.
 
@@ -57,7 +66,9 @@ Test mode does not run Automations or complete Puzzles.
 - **Automations:** use the prop's signals as triggers and its commands as
   actions. They appear as **Device › Prop › Capability**.
 
-Start a practice game to check the trigger and the effect.
+Start a practice game to check the trigger and the effect. With the example,
+link **Train door** to a Puzzle, start a game and touch pin 2 to GND: the LED
+lights for five seconds and the Puzzle completes.
 
 ## 5. Update your firmware
 
@@ -88,8 +99,8 @@ sketch while keeping your puzzle logic, and how to check its work.
 3. Review the changes, then upload the firmware and follow
    [Pair the controller](#2-pair-the-controller) or
    [Update your firmware](#5-update-your-firmware).
-4. Test every command yourself. The agent can compile the firmware but can't
-   check the wiring or the prop.
+4. Test every command yourself. An agent can compile and upload the firmware,
+   for example with Arduino CLI, but it can't check the wiring or the prop.
 
 ## You're ready when...
 
