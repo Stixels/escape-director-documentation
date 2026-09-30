@@ -25,6 +25,10 @@ messages, choose **Existing device** and map its messages.
 - **Chrome** on the same computer and a USB data cable.
 - Experience uploading Arduino sketches.
 
+{% hint style="warning" %}
+Escape Director hardware control is intended for show control and gameplay automation, not life-safety use. Networked software and connected devices can fail. Do not rely on Escape Director as the only means of emergency release, egress, shutdown, or hazard prevention. Install and maintain appropriate independent hardwired or manual overrides and follow all applicable requirements.
+{% endhint %}
+
 Use a spare controller for your first test, with prop loads disconnected.
 
 ## 1. Upload the example

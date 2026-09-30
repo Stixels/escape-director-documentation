@@ -8,6 +8,10 @@ Use this guide to receive messages from existing props and send their supported
 commands from Escape Director. Your device must already support HTTP or MQTT;
 you do not need to install Escape Director firmware on it.
 
+{% hint style="warning" %}
+Escape Director hardware control is intended for show control and gameplay automation, not life-safety use. Networked software and connected devices can fail. Do not rely on Escape Director as the only means of emergency release, egress, shutdown, or hazard prevention. Install and maintain appropriate independent hardwired or manual overrides and follow all applicable requirements.
+{% endhint %}
+
 ## Before you begin
 
 Have the device's connection instructions, message format and supported commands
