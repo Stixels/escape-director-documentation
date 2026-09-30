@@ -7,8 +7,9 @@ PC and controller to the same private network. Have a USB data cable ready.
 
 1. Open your Room, choose **Edit**, then **Devices**.
 2. Choose **Set up Room Connector**, then **Download for Windows 11**.
-3. Run the installer and open **Room Connector**. Its icon appears in the
-   Windows tray. You do not need to install developer tools.
+3. Run the installer. If Windows shows **Windows protected your PC**, choose
+   **More info**, then **Run anyway**. Open **Room Connector**; its icon appears
+   in the Windows tray. You do not need to install developer tools.
 4. Return to Escape Director and choose **Open Room Connector**. Allow Chrome
    to open the app, then choose **Connect** in Room Connector's window.
 5. If Chrome asks to access devices on your local network, allow access for

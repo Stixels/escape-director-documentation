@@ -27,6 +27,9 @@ disconnected while installing firmware and setting up wiring.
 1. Open your Room, choose **Edit**, then **Devices**.
 2. Connect **Room Connector**. On a Mac, download it when prompted, move the app
    to **Applications**, and open it. Use the download for your Mac’s processor.
+   The first time you open it, macOS may say it can’t verify Room Connector.
+   Choose **Done**, open **System Settings → Privacy & Security**, and choose
+   **Open Anyway**. You only need to do this once for each version.
 3. When Chrome asks to open Room Connector, allow it. Choose **Connect** in
    Room Connector's window.
 4. If Chrome asks to access devices on your local network, allow access for
