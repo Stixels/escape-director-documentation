@@ -4,9 +4,6 @@ description: Connect a controller, configure its props, and test them with your 
 
 # Connect Room Devices
 
-Release draft — verify the Connector-owned USB steps on macOS and Windows
-before publication.
-
 Use **Escape Director firmware** to set up supported puzzle behavior in the app.
 You do not need Arduino IDE or the SDK for this path. Choose **Your own firmware
 (SDK)** only when you or your developer will write the controller's program.
@@ -90,9 +87,9 @@ wiring instructions to connect and verify the intended loads before admitting gu
 
 1. In a prop's **Completes Puzzle** selector, choose the Puzzle it represents.
    Different props can link to different Puzzles.
-2. Start a bench game from the Room Dashboard. Complete the Puzzle from the
+2. Start a practice game from the Room Dashboard. Complete the Puzzle from the
    Dashboard and check that the linked prop completes.
-3. Finish the game, then choose **Reset Room**. Start another bench game and
+3. Finish the game, then choose **Reset Room**. Start another practice game and
    solve the physical prop. Check that its Puzzle completes once.
 4. Finish and reset again. Check controller power-cycle recovery before using
    the Room with guests.

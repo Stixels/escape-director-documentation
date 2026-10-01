@@ -84,7 +84,7 @@ lights for five seconds and the Puzzle completes.
 2. Open the Device's **Controller setup**, choose **Check controller**, then
    **Update connection**. Setup lists any props that changed.
 3. When the controller reconnects, choose **Save props to Room**.
-4. Check Linked Puzzles and Automations, then test again.
+4. Check each prop's **Completes Puzzle** link and its Automations, then test again.
 
 Change your sketch's version when you change it. Its name, version and declared
 props, signals, commands and state make up what the Room sees; changing any of
@@ -135,7 +135,7 @@ text.
 running.
 
 **A Test command works but the Puzzle doesn't complete:** Test mode never
-completes Puzzles. Check the Linked Puzzle during a practice game.
+completes Puzzles. Check the **Completes Puzzle** link during a practice game.
 
 ## Next
 

@@ -110,7 +110,7 @@ Removing a mapping disables Automations that depend on it until you repair them.
    command. Test mode does not run Automations or write to the Session Log.
 2. To map a captured message, choose **Map…**. Your mapping stays a draft until
    you choose **Turn off Test mode and save**.
-3. Turn off Test mode and run a bench game from the Room Dashboard. Operate the
+3. Turn off Test mode and run a practice game from the Room Dashboard. Operate the
    prop and check the Puzzle, Automation action and physical output together.
 4. Finish the game and check the device's own reset procedure. **Reset Room**
    does not invent a reset command for existing hardware.

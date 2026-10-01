@@ -22,7 +22,7 @@ PC and controller to the same private network. Have a USB data cable ready.
 6. If Windows asks about network access, allow the Connector on your private
    network so it can communicate with the controller. Keep the firewall enabled.
 7. Confirm Room Connector says **Connected**, then continue with
-   [Add and pair your controller](connect-room-devices.md#2-add-and-pair-your-controller).
+   [Add and pair your controller](../../build-your-rooms/connect-room-devices.md#2-add-and-pair-your-controller).
 
 Keep Room Connector running while using the Room. From its tray menu, enable
 **Start at login** if this PC operates the Room each day.
