@@ -16,6 +16,9 @@
 * [Add Puzzles and Clues](build-your-rooms/add-puzzles-and-clues.md)
 * [Manage Room Media](build-your-rooms/manage-room-media.md)
 * [Configure Room Automations](build-your-rooms/configure-room-automations.md)
+* [Connect Room Devices](build-your-rooms/connect-room-devices.md)
+* [Connect Existing Devices](build-your-rooms/connect-existing-devices.md)
+* [Build Your Own Controller](build-your-rooms/build-your-own-controller.md)
 
 ## Prepare for a Shift
 
