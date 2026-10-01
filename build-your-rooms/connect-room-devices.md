@@ -149,5 +149,5 @@ to pair it, save its props and update it later.
 
 ## Next
 
-Try [Three Ways to Connect a Prop to Your Room](device-workflows.md) for complete
-managed-controller, MQTT and HTTP examples.
+[Configure Room Automations](configure-room-automations.md) to use your props'
+signals and commands alongside the Room's other actions.

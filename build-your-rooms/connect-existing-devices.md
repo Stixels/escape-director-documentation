@@ -8,6 +8,9 @@ Use this guide to receive messages from existing props and send their supported
 commands from Escape Director. Your device must already support HTTP or MQTT;
 you do not need to install Escape Director firmware on it.
 
+A **signal** starts an Automation. A **command** asks the device to do
+something. **State** shows what the device reports, such as a door being open.
+
 ## Before you begin
 
 Have the device's connection instructions, message format and supported commands
@@ -121,8 +124,6 @@ Commands missed during a disconnection are not replayed when Room Connector
 reconnects. Verify the prop's current state before manually sending another command.
 
 ## Next
-
-For complete examples, see [Three Ways to Connect a Prop to Your Room](device-workflows.md).
 
 [Configure Room Automations](configure-room-automations.md)
 to combine device signals and commands with your Room's other actions.

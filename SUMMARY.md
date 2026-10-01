@@ -20,7 +20,6 @@
 * [Set Up Room Connector on Windows](build-your-rooms/windows-connector.md)
 * [Connect Existing Devices](build-your-rooms/connect-existing-devices.md)
 * [Build Your Own Controller](build-your-rooms/build-your-own-controller.md)
-* [Three Ways to Connect a Prop to Your Room](build-your-rooms/device-workflows.md)
 
 ## Prepare for a Shift
 
