@@ -59,16 +59,20 @@ as well as the reported state: a confirmed command means the controller accepted
 it, not that a mechanism moved. With the example, **Open door** lights the
 board's LED for one second.
 
+<figure><img src="../.gitbook/assets/sdk-test-mode.webp" alt="Gallery controller in Test mode: three props with live readings, their command buttons, and the Test trace"><figcaption><p>In Test mode, each prop shows its readings and the commands your firmware allows.</p></figcaption></figure>
+
 Only commands your firmware allows in Test mode appear there.
 
 Test mode does not run Automations or complete Puzzles.
 
 ## 4. Use the props in your Room
 
-- **Linked Puzzle:** for a prop that supports Puzzle completion, choose the
+- **Completes Puzzle:** for a prop that supports Puzzle completion, choose the
   Puzzle it completes. Completing either one completes the other.
 - **Automations:** use the prop's signals as triggers and its commands as
   actions. They appear as **Device › Prop › Capability**.
+
+<figure><img src="../.gitbook/assets/sdk-device-props.webp" alt="Gallery controller with firmware v1.2.0 matching the Room, and three props: Clockwork plinth and Counterfeit seal linked to Puzzles, and Portrait lights"><figcaption><p>Props your firmware declares, with their live readings and linked Puzzles.</p></figcaption></figure>
 
 Start a practice game to check the trigger and the effect. With the example,
 link **Train door** to a Puzzle, start a game and touch pin 2 to GND: the LED

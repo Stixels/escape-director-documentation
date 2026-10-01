@@ -36,6 +36,8 @@ disconnected while installing firmware and setting up wiring.
    Escape Director. This lets the page reach Room Connector on this computer.
 5. Return to the Devices tab and confirm Room Connector says **Connected**.
 
+<figure><img src="../.gitbook/assets/devices-overview.webp" alt="Devices tab for The Curator's Vault: Room Connector connected and three Devices available"><figcaption><p>Room Connector is connected and every Device in the Room shows its status.</p></figcaption></figure>
+
 Keep Room Connector running on this computer while operating the Room. You do
 not need to reinstall it when you refresh the page.
 
@@ -52,6 +54,8 @@ not need to reinstall it when you refresh the page.
 5. Follow the setup steps to choose a Wi-Fi network and enter its password.
    Use **Scan again** if needed, or **Enter name manually** for a hidden network.
 6. Wait for setup to confirm that the controller reached the Room Station.
+
+<figure><img src="../.gitbook/assets/add-device-choices.webp" alt="Add Integrated Device dialog with Escape Director firmware selected, Your own firmware (SDK), Existing device, and a Device name field"><figcaption><p>Choose what runs on the controller, then name the Device.</p></figcaption></figure>
 
 USB is needed for initial setup and firmware installation. After successful setup,
 normal communication uses Wi-Fi. The controller still needs a suitable power source.
@@ -84,7 +88,7 @@ wiring instructions to connect and verify the intended loads before admitting gu
 
 ## 5. Link props to Room Puzzles
 
-1. In a prop's **Linked Puzzle** selector, choose the Puzzle it represents.
+1. In a prop's **Completes Puzzle** selector, choose the Puzzle it represents.
    Different props can link to different Puzzles.
 2. Start a bench game from the Room Dashboard. Complete the Puzzle from the
    Dashboard and check that the linked prop completes.
@@ -100,6 +104,8 @@ During a running game, the same controller can show **Reconnecting…** while
 recovering, then resume control automatically. Commands missed during the gap
 are not repeated. If **Device control paused** remains, check the controller
 and any reported problem before choosing **Resume device control**.
+
+<figure><img src="../.gitbook/assets/device-monitor.webp" alt="Device Monitor during a game: Room Connector connected, three Devices with their props, and Activity showing The Clockwork Plinth completed from its linked prop"><figcaption><p>During a game, open Devices on the Room Dashboard to see each prop and recent activity.</p></figcaption></figure>
 
 ## Updating Room Connector
 

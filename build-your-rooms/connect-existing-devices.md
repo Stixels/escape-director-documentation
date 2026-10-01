@@ -57,6 +57,8 @@ Station requires entering those details again.
    puzzle**. This creates a regular Automation.
 7. Choose **Save signal**.
 
+<figure><img src="../.gitbook/assets/mapping-sheet-listen.webp" alt="New signal sheet listening on room/wall-safe/#, with captured messages, the chosen message and its door value open selected"><figcaption><p>Listen, choose a message, then click the value that means something.</p></figcaption></figure>
+
 Listening cannot determine whether repeated messages are separate events or
 periodic state reports. Choose the trigger based on how your device works.
 MQTT messages marked **Retained** show previous state and do not run Automations.
@@ -72,6 +74,8 @@ GET/POST path. Choose a name such as **Open latch** that a Game Master can ident
 If the device reports its result, select that state under expected state and
 choose the value and wait time.
 
+<figure><img src="../.gitbook/assets/existing-device-mqtt.webp" alt="Wall safe MQTT Device with its prop, a Solved signal, Solved and Door readings, and an Open latch command"><figcaption><p>Each prop lists its signals, readings and commands beside the messages they use.</p></figcaption></figure>
+
 Test sends a real command. Keep people clear of moving props and verify the
 physical result before using the command during a game. The result distinguishes:
 
@@ -80,6 +84,8 @@ physical result before using the command during a game. The result distinguishes
   the prop acted. MQTT delivery without acknowledgement may show only Sent.
 - **Expected state reported**: a matching report arrived after this command.
   No new report means unconfirmed; the command may still have worked.
+
+<figure><img src="../.gitbook/assets/command-evidence.webp" alt="Test result for Wall safe Open latch: Sent, Accepted and Expected state reported"><figcaption><p>A test command shows what is known: sent, accepted, and whether the expected state was reported.</p></figcaption></figure>
 
 MQTT commands are never retained. With delivery level 1, a broker can deliver a
 command more than once, so use commands the device can safely repeat. The device's

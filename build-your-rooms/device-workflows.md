@@ -45,7 +45,7 @@ relay or lock. The UNO R4 WiFi has a built-in antenna.
 6. Turn on **Test mode**. Press the button: the input and LED should become active.
    Release it: both should become inactive. Repeat several times. Test mode must
    not complete a Room Puzzle or run an Automation.
-7. Turn off Test mode. Select the Room Puzzle under **Linked Puzzle**. Start a
+7. Turn off Test mode. Select the Room Puzzle under **Completes Puzzle**. Start a
    bench game and press the button. The LED should turn on and the Puzzle should
    complete. Releasing the button turns off the LED but leaves completion recorded.
 8. Release the button, mark the Puzzle undone, then press again. It should complete
