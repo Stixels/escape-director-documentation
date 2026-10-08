@@ -15,7 +15,7 @@ messages, choose **Existing device** and map its messages.
 ## Before you begin
 
 - **The Device SDK:** download the SDK ZIP from the
-  [latest release on GitHub](https://github.com/Stixels/escape-director-device-sdk/releases/latest).
+  [latest release on GitHub](https://github.com/directorhq/escape-director-device-sdk/releases/latest).
   The SDK is open source under the MIT License, so you can use and
   change it for your props however you like.
 - **Supported boards:** Arduino UNO R4 WiFi or GIGA R1 WiFi, paired over USB
